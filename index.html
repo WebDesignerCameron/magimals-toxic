@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Random Number</title>
+            <style>
+                body{font-family:"Calibri";}
+                img#logo{width:350px;height: 125px;}
+                div#maintitle{color:white;background:blue;outline:3px solid white;padding:5px;margin:auto;}
+                fieldset.fl{padding:5px;margin:auto;outline:1px solid blue;}
+                legend.fl{color:white;background:blue;}
+                div.fl{color:black;outline:0px;}
+                div#submit-pic-div{font-family:"Courier";}
+                input#pokemonpic{width: 200px; height: 25px; background: blue; color: white;}
+                h2{color:blue;}
+                a{outline:1px dashed blue;}
+                div#mission{font-family:"Trebuchet MS";}
+            </style>
+            <script>
+                var brval="<br>";
+                function sub(){
+                    var photofile=document.getElementById("pokemonpic").files[0];
+                    if(photofile){
+                        const url=URL.createObjectURL(photofile);
+                        if(brval){
+                            brval="";
+                        }else{
+                            brval="<br>"
+                        }
+                        document.getElementById("recentdiv").innerHTML+='<img src=' + url + ' height="100" width="75">' + brval;
+                    }else{
+                        document.getElementById("recentdiv").textContent+="No photo found";
+                    }
+                }
+            </script>
+        </head>
+        <body>
+            <div id="maintitle">
+                <h1>Pokemon Toxic Official</h1>
+                <h3>Main Website</h3>
+            </div>
+            <img id="logo" src="pokemon-toxic-logo.jpg">
+            <hr>
+            <h2>Welcome</h2>
+            <p>This is the official website for a game called Pokemon Toxic. Pokemon Toxic is a fanmade game in development that I am the Lead Coder for. Though the Toxic group currently is small, this website is made to gain interest and popularity.</p>
+            <hr>
+            <div id="mission">
+                <h2>The mission: </h2>
+                <form action="">
+                    <fieldset class="fl">
+                        <legend class="fl">Our goal</legend>
+                        <div class="fl">
+                            <p>
+                                Pokemon Toxic's goal is to encourage game developers to keep pace, as even an individual can make a game.
+                            </p>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+            <hr>
+            <div id="game">
+                <h2>The Game</h2>
+            </div>
+            <form action="">
+                <fieldset class="fl">
+                    <legend class="fl">The Idea</legend>
+                    <div class="fl">
+                        <p>
+                            Pokemon Toxic is a fanmade Pokemon spinoff planned to comprise of 4 islands: Montacia Island, Starter Island, Final Bossfight Island, etc. It introduces all-new Pokemon and even a Pokemon Superhero Team!
+                        </p>
+                    </div>
+                </fieldset>
+            </form>
+            <hr>
+            <div id="submit-pic-div">
+                <h2>Submit a Pokemon Idea</h2>
+                <label>Submit a photo: </label>
+                <input type="file" id="pokemonpic" name="photo" accept=".png,.jpg,.jpeg">
+                <br>
+                <button type="button" id="submitpic" onclick="sub()">Submit photo</button>
+                <div id="recentdiv">Recent photos: <br></div>
+            </div>
+            <hr>
+            <h2>Links</h2><br>
+            <a href="https://github.com/WebDesignerCameron/pokemon-toxic">Page Info</a><br>
+            <a href="https:/github.com/WebDesignerCameron">My Web Designing Account</a>
+            <hr>
+            <p><sup>Created by</sup> Web Designer Cameron</p>
+        </body>
+    </html>

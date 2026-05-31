@@ -31,6 +31,8 @@
                         document.getElementById("recentdiv").textContent+="No photo found";
                     }
                 }
+                const numday=Math.Random()*(1000-1)+1;
+                document.getElementById("numofday").textContent+=numday;
             </script>
         </head>
         <body>
@@ -70,6 +72,9 @@
                     </div>
                 </fieldset>
             </form>
+            <hr>
+            <h2>Number of the day</h2><br>
+            <p id="numofday"></p>
             <hr>
             <div id="submit-pic-div">
                 <h2>Submit a Pokemon Idea</h2>

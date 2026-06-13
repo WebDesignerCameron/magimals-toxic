@@ -4,3 +4,4 @@ The official Pokemon Toxic website. Pokemon Toxic is a fanmade Pokemon game. Lin
 * [Contributors](https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/contributors.md)
 * [Get your own brilliant website](https://webdesignercameron.github.io/WebDesignerCameronSites)
 * [See WebDesignerCameron](https://github.com/WebDesignerCameron)
+* [Clarifications](https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/clarifications.md)

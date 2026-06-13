@@ -5,4 +5,4 @@ unaccented e for copyright reasons.
 Pokemon Toxic is a website made by 
 WebDesignerCameronSites. Links: 
 * [Back to main page](
-https://github.com/WebDesignerCameron/WebDesignerCameronSites/)
+https://github.com/WebDesignerCameron/pokemon-toxic)

@@ -1,4 +1,4 @@
-# pokemon-toxic
+# Pokemon Toxic
 The official Pokemon Toxic website. Pokemon Toxic is a fanmade Pokemon game. Links: 
 * [Main Website](https://webdesignercameron.github.io/pokemon-toxic)
 * [Contributors](https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/contributors.md)
@@ -18,4 +18,3 @@ take the slow road and eventually work
 your way through the detailed plot twists 
 and breath-taking adventures that you 
 will ahead of you. 
-![Pokemon Toxic, the thrilling adventure](logo.jpg){width=300px}

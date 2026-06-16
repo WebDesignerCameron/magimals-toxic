@@ -3,26 +3,20 @@
         <head>
             <title>Pokemon Toxic</title>
             <style>
-                body{font-family:"Calibri"; font-size: 10; background: black; color: white; }
+                body{font-family:"Calibri"; font-size: 10; }
                 img#logo{width:350px;height: 175px;}
                 div#maintitle{color:white;background: linear-gradient(45deg, #ffff00, #0000ff, #ffff00, #0000ff, #ffff00, #0000ff, #ffff00, #0000ff, );outline:3px solid white;padding:5px;margin:auto; animation: glowing 20s linear infinite; }
                 fieldset.fl{padding:5px;margin:auto;outline:1px solid blue;}
                 legend.fl{color:white;background:blue;}
-                div.fl{color:white;outline:0px;}
+                div.fl{color:black;outline:0px;}
                 div#submit-pic-div{font-family:"Courier";}
-                input#pokemonpic{width:200px; background: blue; color: white;}
                 h2{color:blue;}
                 a{outline:1px dashed blue;}
                 div#mission{font-family:"Trebuchet MS";}
-                .glow{content: ""; position: relative; background: #000; z-index: 0; }
-                .glow::before{background: linear-gradient(45deg, #ff0000,#ff8800,#ffff00,#00ff00,#00ffff,#0000ff,#ff00ff,#ff6666); background-size: 600%; top: -2px; left: -2px; z-index: -1; width: calc(100% + 4px); height: calc(100% + 4px); filter: blur(8px); border-radius: 25px; opacity: 1; content: ""; position: absolute; animation: glowing 20s linear infinite; }
-                @keyframes glowing {
-                        0% { background-position: 0 0; }
-                        50% { background-position: 400% 0; }
-                        100% { background-position: 0 0; }
-                    }
+
                 .cal{font-family:"Calibri"; }
             </style>
+            <link rel="stylesheet" href="glow.css">
         </head>
         <body>
             <div id="maintitle" class="glow">
@@ -67,66 +61,26 @@
                 <h2>Submit a Pokemon Idea</h2>
                 <label>Pokemon Name</label>
                 <br>
-                <input type="text" id="pokename" placeholder="Type Here...">
+                <input type="text" name="Name" id="pokename" placeholder="Type Here...">
                 <br>
                 <label>Species</label>
                 <br>
-                <input type="text" id="species" placeholder="Type Here..."><label> Pokemon</label>
+                <input type="text" name="Species" id="species" placeholder="Type Here..."><label> Pokemon</label>
                 <br>
-                <label>Submit a photo: </label>
-                <input type="file" id="pokemonpic" name="photo" accept=".png,.jpg,.jpeg">
+                <label>Description: </label>
+                <br>
+                <input type="textarea" id="descr" name="Description">
                 <br>
                 <label>Select the first type.  </label>
                 <br>
-                <div class="cal">
-                <input type="radio" name="type1" class="Grass"><label>Grass</label>
-                <input type="radio" name="type1" class="Water"><label>Water</label>
-                <input type="radio" name="type1" class="Fire"><label>Fire</label><br>
-                <input type="radio" name="type1" class="Normal"><label>Normal</label>
-                <input type="radio" name="type1" class="Electric"><label>Electric</label><br>
-                <input type="radio" name="type1" class="Ice"><label>Ice</label>
-                <input type="radio" name="type1" class="Rock"><label>Rock</label>
-                <input type="radio" name="type1" class="Ground"><label>Ground</label>
-                <input type="radio" name="type1" class="Steel"><label>Steel</label><br>
-                <input type="radio" name="type1" class="Ghost"><label>Ghost</label>
-                <input type="radio" name="type1" class="Dark"><label>Dark</label>
-                <input type="radio" name="type1" class="Fairy"><label>Fairy</label><br>
-                <input type="radio" name="type1" class="Psychic"><label>Psychic</label>
-                <input type="radio" name="type1" class="Bug"><label>Bug</label>
-                <input type="radio" name="type1" class="Flying"><label>Flying</label><br>
-                <input type="radio" name="type1" class="Fighting"><label>Fighting</label>
-                <input type="radio" name="type1" class="Poison"><label>Poison</label>
-                <input type="radio" name="type1" class="Dragon"><label>Dragon</label>
-                </div>
+                <input type="text" name="Type1" placeholder="Type here...">
                 <br>
                 <label>Select the second type.  </label>
                 <br>
-                <div class="cal">
-                <input type="radio" name="type2" class="N/A"><label>N/A</label>
-                <input type="radio" name="type2" class="Grass"><label>Grass</label>
-                <input type="radio" name="type2" class="Water"><label>Water</label>
-                <input type="radio" name="type2" class="Fire"><label>Fire</label><br>
-                <input type="radio" name="type2" class="Normal"><label>Normal</label>
-                <input type="radio" name="type2" class="Electric"><label>Electric</label><br>
-                <input type="radio" name="type2" class="Ice"><label>Ice</label>
-                <input type="radio" name="type2" class="Rock"><label>Rock</label>
-                <input type="radio" name="type2" class="Ground"><label>Ground</label>
-                <input type="radio" name="type2" class="Steel"><label>Steel</label><br>
-                <input type="radio" name="type2" class="Ghost"><label>Ghost</label>
-                <input type="radio" name="type2" class="Dark"><label>Dark</label>
-                <input type="radio" name="type2" class="Fairy"><label>Fairy</label><br>
-                <input type="radio" name="type2" class="Psychic"><label>Psychic</label>
-                <input type="radio" name="type2" class="Bug"><label>Bug</label>
-                <input type="radio" name="type2" class="Flying"><label>Flying</label><br>
-                <input type="radio" name="type2" class="Fighting"><label>Fighting</label>
-                <input type="radio" name="type2" class="Poison"><label>Poison</label>
-                <input type="radio" name="type2" class="Dragon"><label>Dragon</label>
-                </div>
+                <input type="text" name="Type2" placeholder="Type here...">
                 <br>
                 <button type="submit" id="submitpic" >
                     Submit Pokemon</button>
-                <div id="recentdiv">Recent Ideas: <br>
-                </div>
                 </form>
             </div>
             <hr>
@@ -134,10 +88,9 @@
             <a href="https://github.com/WebDesignerCameron/pokemon-toxic">Page Info</a><br>
             <a href="https:/github.com/WebDesignerCameron">My Web Designing Account</a><br>
             <a href="https://webdesignercameron.github.io/WebDesignerCameronSites">Get your own brilliant sites</a><br>
-            <a href="program.html">Programming of Pokemon Toxic</a><br>
-            <a href="generatorweb.html">Random Pokemon Idea Generator</a>
+            <a href="program.html">Programming of Pokemon Toxic</a>
             <hr>
             <br>
             <p><sup>Created by</sup> Web Designer Cameron</p>
         </body>
-    </html>
+    </html

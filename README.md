@@ -6,3 +6,16 @@ The official Pokemon Toxic website. Pokemon Toxic is a fanmade Pokemon game. Lin
 * [See WebDesignerCameron](https://github.com/WebDesignerCameron)
 * [Clarifications](https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/clarifications.md)
 * [Programming](https://webdesignercameron.github.io/pokemon-toxic/program.html)
+## Introduction
+Pokemon Toxic is a wild game of tactics 
+and strategy as you advance through the 
+carefully calibrated and planned map, 
+where you fight trainers in your epic 
+journey to the Oscilla Mountains. 
+Pokemon Toxic can get your blood pumping 
+in a fast-paced adventure, or you can 
+take the slow road and eventually work 
+your way through the detailed plot twists 
+and breath-taking adventures that you 
+will ahead of you. 
+![Pokemon Toxic, the thrilling adventure](logo.jpg){width=300px}

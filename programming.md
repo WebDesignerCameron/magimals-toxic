@@ -11,4 +11,8 @@ This posts the pokemon details to
 an email address. The Pokemon Toxic 
 game uses in SFML for C++. For more 
 details on the files, see the 
-[Github Page](https://github.com/WebDesignerCameron/pokemon-toxic)
+[Github Page](https://github.com/WebDesignerCameron/pokemon-toxic). 
+## System
+Files in the repository 
+linked previously were coded on 
+a Huawei Android 10. 

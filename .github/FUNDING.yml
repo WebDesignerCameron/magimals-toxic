@@ -1,15 +1,3 @@
 # These are supported funding model platforms
 
-github: None
-patreon: None 
-open_collective: None 
-ko_fi: None 
-tidelift: None 
-community_bridge: None 
-liberapay: None 
-issuehunt: None 
-lfx_crowdfunding: None 
-polar: None 
-buy_me_a_coffee: None 
-thanks_dev: None
-custom: ['https://webdesignercameron.github.io/WebDesignerCameronSites'] 
+business: ['https://webdesignercameron.github.io/WebDesignerCameronSites'] 

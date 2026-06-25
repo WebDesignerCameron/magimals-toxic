@@ -1,96 +1,163 @@
 <!DOCTYPE html>
     <html>
         <head>
+            <!--Meta-Info-->
             <title>Pokemon Toxic</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+            <!--Style-->
             <style>
-                body{font-family:"Calibri"; font-size: 10; }
-                img#logo{width:350px;height: 175px;}
-                div#maintitle{color:white;background: linear-gradient(45deg, #ffff00, #0000ff, #ffff00, #0000ff, #ffff00, #0000ff, #ffff00, #0000ff, );outline:3px solid white;padding:5px;margin:auto; animation: glowing 20s linear infinite; }
-                fieldset.fl{padding:5px;margin:auto;outline:1px solid blue;}
-                legend.fl{color:white;background:blue;}
-                div.fl{color:black;outline:0px;}
-                div#submit-pic-div{font-family:"Courier";}
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                
+                body{font-family:"Calibri"; font-size: 10; background: white; color: black; }
+                
+                #logo{ width: 240px; margin: auto; margin-right: 10px; }
+                
+                header{color:white;outline:3px solid white;padding:5px;margin:auto; width: calc(100vw-4px); background:black;}
+                nav a{
+                    color: grey; flex: auto; margin: auto;
+                }
+                
+                .hero {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    background: linear-gradient(135deg, #2b5876, #4e4376);
+                    color: #fff;
+                    text-align: center;
+                    padding: 5rem 1rem;
+                }
+                
+                article{
+                    background: #fff;
+                    padding: 1rem;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+                    width: 350px;
+                }
+                
+                #submit-pic-div{font-family:"Courier";}
+                
                 h2{color:blue;}
-                a{outline:1px dashed blue;}
-                div#mission{font-family:"Trebuchet MS";}
-
+                
+                h2.not{color:white;}
+                
+                h2.notb{color:black;}
+                
+                footer{background:black;color:white;margin-top:10px;padding-top:50px;padding-bottom:50px;font-size:20;}
+                
                 .cal{font-family:"Calibri"; }
+                
+                .noo{outline: 0px; color:white;}
+                
+                .logo-s{
+                    display: flex;
+                }
+                
+                section {
+                    margin: auto;
+                }
+                
+                button, input {
+                    margin: 5px;
+                }
             </style>
-            <link rel="stylesheet" href="glow.css">
         </head>
         <body>
-            <div id="maintitle" class="glow">
+            <header>
+                <br>
                 <h1>Pokemon Toxic Official</h1>
+                <br>
                 <h3>Main Website</h3>
-            </div>
-            <img id="logo" src="pokemon-toxic-logo.jpg">
-            <hr>
-            <h2>Welcome</h2>
-            <p>This is the official website for a game called Pokemon Toxic. Pokemon Toxic is a fanmade game in development that I am the Lead Coder for. Though the Toxic group currently is small, this website is made to gain interest and popularity.</p>
-            <hr>
-            <div id="mission">
-                <h2>The mission: </h2>
-                <form action="">
-                    <fieldset class="fl">
-                        <legend class="fl">Our goal</legend>
-                        <div class="fl">
+                <br>
+                <nav style="display:flex;">
+                    <a href="#intro">Introduction</a>
+                    <a href="#submit-pic-div">Submit a Pokemon</a>
+                    <a href="#links">Links</a>
+                    <a href="#mission">Info</a>
+                </div>
+            </header>
+            <main>
+                <section class="logo-s">
+                <img id="logo" src="pokemon-toxic-logo.jpg"><p>
+                    <br>
+                    The Pokemon Toxic logo was crafted by WebDesignerCameron and Brogan, who both took part in Pokemon Toxic. It resembles the Pokemon logo with an unnaccented e with a slimy font saying 'Toxic'. Radioactive colours surround it.
+                </p>
+                </section>
+                <hr>
+                <section class="hero" id="intro">
+                <h2 class="not">Welcome</h2>
+                <p>This is the official website for a game called Pokemon Toxic. Pokemon Toxic is a fanmade game in development that I am the Lead Coder for. Though the Toxic group currently is small, this website is made to gain interest and popularity.</p>
+                </section>
+                <hr>
+                <section id="mission">
+                    <h2>The Mission</h2>
+                    <article>
+                        <h3>Our goal</h3>
                             <p>
                                 Pokemon Toxic's goal is to encourage game developers to keep pace, as even an individual can make a game.
-                            </p>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-            <hr>
-            <div id="game">
-                <h2>The Game</h2>
-            </div>
-            <form action="">
-                <fieldset class="fl">
-                    <legend class="fl">The Idea</legend>
-                    <div class="fl">
+                        </p>
+                    </article>
+                    <br>
+                </section>
+                <hr>
+                <section id="game">
+                    <h2>The Game</h2>
+                    <article>
+                        <h3>The Idea</h3>
                         <p>
                             Pokemon Toxic is a fanmade Pokemon spinoff planned to comprise of 4 islands: Montacia Island, Starter Island, Final Bossfight Island, etc. It introduces all-new Pokemon and even a Pokemon Superhero Team!
                         </p>
-                    </div>
-                </fieldset>
-            </form>
-            <hr>
-            <div id="submit-pic-div">
-                <form id="pokemonForm" action="https://formspree.io/f/xzdqyeay" method="POST" enctype="multipart/form-data">
-                <h2>Submit a Pokemon Idea</h2>
-                <label>Pokemon Name</label>
-                <br>
-                <input type="text" name="Name" id="pokename" placeholder="Type Here...">
-                <br>
-                <label>Species</label>
-                <br>
-                <input type="text" name="Species" id="species" placeholder="Type Here..."><label> Pokemon</label>
-                <br>
-                <label>Description: </label>
-                <br>
-                <input type="textarea" id="descr" name="Description">
-                <br>
-                <label>Select the first type.  </label>
-                <br>
-                <input type="text" name="Type1" placeholder="Type here...">
-                <br>
-                <label>Select the second type.  </label>
-                <br>
-                <input type="text" name="Type2" placeholder="Type here...">
-                <br>
-                <button type="submit" id="submitpic" >
-                    Submit Pokemon</button>
-                </form>
-            </div>
-            <hr>
-            <h2>Links</h2><br>
-            <a href="https://github.com/WebDesignerCameron/pokemon-toxic">Page Info</a><br>
-            <a href="https:/github.com/WebDesignerCameron">My Web Designing Account</a><br>
-            <a href="https://webdesignercameron.github.io/WebDesignerCameronSites">Get your own brilliant sites</a><br>
-            <a href="program.html">Programming of Pokemon Toxic</a>
-            <hr>
+                    </article>
+                    <br>
+                </section>
+                <hr>
+                <section id="submit-pic-div">
+                    <form id="pokemonForm" action="https://formspree.io/f/xzdqyeay" method="POST" enctype="multipart/form-data">
+                    <h2>Submit a Pokemon Idea</h2>
+                    <label>Pokemon Name</label>
+                    <br>
+                    <input type="text" name="Name" id="pokename" placeholder="Type Here...">
+                    <br>
+                    <label>Species</label>
+                    <br>
+                    <input type="text" name="Species" id="species" placeholder="Type Here..."><label> Pokemon</label>
+                    <br>
+                    <label>Description: </label>
+                    <br>
+                    <input type="textarea" id="descr" name="Description" placeholder="Type Here...">
+                    <br>
+                    <label>Select the first type.  </label>
+                    <br>
+                    <input type="text" name="Type1" placeholder="Type Here...">
+                    <br>
+                    <label>Select the second type.  </label>
+                    <br>
+                    <input type="text" name="Type2" placeholder="Type Here...">
+                    <br>
+                    <button type="submit" id="submitpic" >
+                        Submit Pokemon</button>
+                    </form>
+                </section>
+                <hr>
+                <section id="links">
+                <h2>Links</h2><br>
+                <a href="https://github.com/WebDesignerCameron/pokemon-toxic">Page Info</a><br>
+                <a href="https:/github.com/WebDesignerCameron">My Web Designing Account</a><br>
+                <a href="https://webdesignercameron.github.io/WebDesignerCameronSites">Get your own brilliant sites</a><br>
+                <a href="program.html">Programming of Pokemon Toxic</a><br>
+                <a href="https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/README.md">Information</a>
+                </section>
+                <hr>
+            </main>
             <br>
+            <footer>
             <p><sup>Created by</sup> Web Designer Cameron</p>
+            <p>Made with <a href="https://github.com" class="noo">Github</a></p>
+            </footer>
         </body>
     </html>

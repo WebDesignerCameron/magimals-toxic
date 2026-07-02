@@ -3,14 +3,14 @@ This is the official Magimals Toxic
 website. Magimals Toxic is a fanmade
 Pokemon game. 
 ## Links: 
-* [Main Website](https://webdesignercameron.github.io/pokemon-toxic)
-* [Contributors](https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/contributors.md)
+* [Main Website](https://webdesignercameron.github.io/magimals-toxic)
+* [Contributors](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/contributors.md)
 * [Get your own brilliant website](https://webdesignercameron.github.io/WebDesignerCameronSites)
 * [See WebDesignerCameron](https://github.com/WebDesignerCameron)
-* [Copyright Clarifications](https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/clarifications.md)
-* [Folders](https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/src/src.md)
-* [License](https://github.com/WebDesignerCameron/pokemon-toxic/blob/main/policies/licencing.md)
-* [Programming](https://webdesignercameron.github.io/pokemon-toxic/program.html)
+* [Copyright Clarifications](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/clarifications.md)
+* [Folders](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/src/src.md)
+* [License](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/policies/licencing.md)
+* [Programming](https://webdesignercameron.github.io/magimals-toxic/program.html)
 ## Game Introduction
 Magimals Toxic is a wild game of tactics 
 and strategy as you advance through the 

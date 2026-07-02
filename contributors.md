@@ -5,7 +5,7 @@ The head of this project is an individual
 named Brogan. I am the lead coder, Cameron. 
 You may know me on Github as 
 WebDesignerCameron. Yunis is the concept 
-artist and helps with Pokemon Ideas. So do 
+artist and helps with Pokemon Ideas(he is fired). So do 
 I. Liam holds the Pokemon Toxic Work Folder 
 and helps with Pokemon Ideas. For the main Pokemon Toxic README, see 
-* [The README linked here. ](https://github.com/WebDesignerCameron/pokemon-toxic/)
+* [The README linked here. ](https://github.com/WebDesignerCameron/magimals-toxic/)

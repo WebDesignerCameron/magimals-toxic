@@ -6,4 +6,4 @@ part of WebDesignerCameron Code.
 Magimals Toxic Page is a website made by 
 [WebDesignerCameron Sites](https://webdesignercameron.github.io/WebDesignerCameronSites). Links: 
 * [Back to main page](
-https://github.com/WebDesignerCameron/pokemon-toxic)
+https://github.com/WebDesignerCameron/magimals-toxic)

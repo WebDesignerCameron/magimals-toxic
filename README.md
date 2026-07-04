@@ -9,7 +9,7 @@ Pokemon game.
 * [See WebDesignerCameron](https://github.com/WebDesignerCameron)
 * [Copyright Clarifications](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/clarifications.md)
 * [Folders](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/src/src.md)
-* [License](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/policies/licencing.md)
+* [License](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/LICENSE.md)
 * [Programming](https://webdesignercameron.github.io/magimals-toxic/program.html)
 ## Game Introduction
 Magimals Toxic is a wild game of tactics 

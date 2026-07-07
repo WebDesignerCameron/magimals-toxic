@@ -11,6 +11,14 @@ Improve interface
 ##### 1st - 3rd
 Aesthetic Commits
 ##### 4th
-Add special GitHub files([LICENSE.md](LICENSE.md), 
+Add special GitHub files(
+[LICENSE.md](LICENSE.md), 
 [SECURITY.md](SECURITY.md), etc.). 
-
+##### 7th
+Changed 
+[this readme](src/Cpp/readme.md), 
+explaining that the source code
+of 
+[Magimals Toxic](https://github.com/WebDesignerCameron/magimals-toxic) 
+is in
+[src.git](https://github.com/WebDesignerCameron/src.git). 

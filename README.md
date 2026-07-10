@@ -1,8 +1,9 @@
 # Magimals Toxic
+## Summary
 This is the official Magimals Toxic 
 website. Magimals Toxic is a fanmade
 Pokemon game. 
-## Links: 
+## Links
 * [Main Website](https://webdesignercameron.github.io/magimals-toxic)
 * [Contributors](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/contributors.md)
 * [Get your own brilliant website](https://webdesignercameron.github.io/WebDesignerCameronSites)

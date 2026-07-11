@@ -1,1 +1,2 @@
-*.md linguist-documentation=false
+# Adds Markdown to languages bar
+*.md linguist-detectable=true

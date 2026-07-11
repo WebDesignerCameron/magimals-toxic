@@ -1,7 +1,8 @@
 # Adds Markdown to languages bar
+*.md linguist-language=Markdown
 *.md linguist-detectable=true
 # Adds YAML
-*.yml linguist-detectable=true
+*.yaml linguist-language=YAML
+*.yml linguist-language=YAML
 *.yaml linguist-detectable=true
-# Adds JPG
-*.jpg linguist-detectable=true
+*.yml linguist-detectable=true

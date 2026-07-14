@@ -26,14 +26,13 @@ and breath-taking adventures that you
 will ahead of you. 
 ## GitHub Stats
 Stat:            Stat Value
-------------------------------------
+
 Type:            Repository         
-------------------------------------
+
 Latest Release:  N/A
-------------------------------------
+
 Game Version:    Prerelease
-------------------------------------
+
 PRs:             1
-------------------------------------
+
 Closed PRs:      1
-------------------------------------

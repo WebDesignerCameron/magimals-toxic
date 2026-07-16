@@ -1,18 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <style>
-            body {
-                font-family: "Calibri";
-                text-align: center;
-            } 
-        </style>
-    </head>
-    <body>
-        <h1>Page not found</h1>
-        <p>Sorry, but we didn't 
-        find what you were looking 
-        for in magimals-toxic.git.</p>
-        <a href="https://webdesignercameron.github.io/magimals-toxic">Back to the main site</a>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Toxic Hazard | Magimals</title>
+    <style>
+        :root {
+            --bg-color: #0b0c10;
+            --toxic-green: #39ff14;
+            --toxic-glow: #00ff66;
+            --text-color: #c5c6c7;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 40px;
+            border: 2px solid var(--toxic-green);
+            border-radius: 15px;
+            background: rgba(57, 255, 20, 0.02);
+            box-shadow: 0 0 20px rgba(57, 255, 20, 0.1);
+        }
+
+        .icon {
+            font-size: 80px;
+            color: var(--toxic-green);
+            text-shadow: 0 0 15px var(--toxic-glow);
+            animation: pulse 1.5s infinite alternate;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 10px 0;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            color: var(--toxic-green);
+            margin-bottom: 20px;
+            text-shadow: 0 0 5px rgba(57, 255, 20, 0.3);
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: transparent;
+            color: var(--toxic-green);
+            text-decoration: none;
+            border: 2px solid var(--toxic-green);
+            border-radius: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 10px rgba(57, 255, 20, 0.2);
+        }
+
+        .btn:hover {
+            background-color: var(--toxic-green);
+            color: var(--bg-color);
+            box-shadow: 0 0 25px var(--toxic-glow);
+            cursor: pointer;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                text-shadow: 0 0 10px var(--toxic-glow);
+            }
+            100% {
+                transform: scale(1.05);
+                text-shadow: 0 0 25px var(--toxic-glow), 0 0 40px #00ffcc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">Magimals Toxic</div>
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <p>Sorry, but we couldn't find what you
+        searched for. Either reload your browser,
+        check the URL, or navigate to what you want
+        via the below button.</p>
+        <a href="https://webdesignercameron.github.io/magimals-toxic" class="btn">
+            Return Home
+        </a>
+    </div>
+</body>
 </html>

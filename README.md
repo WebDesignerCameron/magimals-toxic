@@ -34,6 +34,6 @@ Latest Release:  N/A
 
 Game Version:    Prerelease
 
-PRs:             2
+PRs:             3
 
 Closed PRs:      2

@@ -43,8 +43,9 @@ your way through the detailed plot twists
 and breath-taking adventures that you 
 will ahead of you. 
 ## 🧑‍💻 Running Magimals Toxic
-Since Beta 1.0 isn't released, there
-is no available version. 
+Since Beta 1.0 isn't released, you
+can only see the website, linked
+[here](https://webdesignercameron.github.io/magimals-toxic).
 ## 📈 GitHub Stats
 
 Type:            Repository         

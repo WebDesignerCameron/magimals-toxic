@@ -372,6 +372,11 @@ For maximum tactical control and lightning-fast menu navigation, the complete in
 | **Cancel / Menu Back**| `Escape` | `Backspace` | `ui_execute_cancel()` |
 | **Open Inventory** | `I` | `E` | `ui_toggle_backpack()` |
 
+## ♿ Accessability
+There are single tap controls to suit
+and support people who find it hard
+to move properly, like arthritis or
+something else. 
 
 ## 😊 Credits
 Thanks to all people listed

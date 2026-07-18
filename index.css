@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{font-family:"Calibri"; font-size: 10; background: white; color: black; }
+#logo{ width: 240px; margin: auto; margin-right: 10px; }
+header{color:white;outline:3px solid white;padding:5px;margin:auto; width: calc(100vw-4px); background:black;}
+nav a{
+    color: grey; flex: auto; margin: auto;
+}
+#flexp {
+    font-size: 0.5em;
+}
+.hero {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+article{
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    width: 350px;
+}
+#submit-pic-div{font-family:"Courier";}
+h2{color:blue;}
+h2.not{color:white;}
+h2.notb{color:black;}
+footer{background:black;color:white;margin-top:10px;padding-top:50px;padding-bottom:50px;font-size:20;}
+.cal{font-family:"Calibri"; }
+.logo-s{
+    display: flex;
+}
+section {
+    margin: auto;
+}
+button, input {
+    margin: 5px;
+}

@@ -162,3 +162,9 @@ arrive at the dreaded Final Island,
 a fiery tomb of chaos and
 unorder. What lies there haunts
 many, an unforseen **horror**... 
+### Credits
+Thanks to all people listed
+[here](CONTRIBUTORS.md), who decided
+to join the group and made their
+contributions. And thanks to you,
+for viewing Magimals Toxic. 

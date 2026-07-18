@@ -42,7 +42,11 @@ PRs:             6
 Closed PRs:      6
 
 ## Working on
+
 ✅ Game Grid Setup
+
 ⬜ Game Design
+
 ⬜ Graphics
+
 ⬜ Beta 1.0

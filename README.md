@@ -423,6 +423,25 @@ To facilitate rapid future extensions of the game's roster, all wild Magimals ar
 }
 ```
 
+## 🧠 Memory Management & Garbage Collection Protocols
+
+Because Magimals Toxic is designed to run directly inside browser tabs for extended play sessions, the engine enforces strict memory lifecycle management to eliminate resource leaks.
+
+### Asset Eviction Cycles
+* **Canvas Reset Routines:** When transitions occur between the exploration map and the active battle state, the rendering context clears all unneeded sprite coordinates from memory to prevent GPU memory bloat.
+* **Event Listener Cleanup:** The global input subsystem explicitly detaches tracking hooks when menus open or close, avoiding the creation of orphaned background loop scripts.
+
+## 🔄 Engine State Initialization Flow
+
+The sequential mounting of game systems follows a rigid lifecycle hook model to ensure assets load securely before any user interactions are registered.
+```txt
+[1] Document DOM Content Loaded Event Triggered
+└── [2] LocalStorage Scanned for Saved Game Binary
+└── [3] Main Canvas Viewport Mounting & Context Bindings
+└── [4] Global Spritesheet Image Textures Preloaded into Memory
+└── [5] Input Subsystem Registers Event Handlers
+└── [6] Main Loop Execution (requestAnimationFrame Mount)
+```
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

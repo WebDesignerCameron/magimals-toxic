@@ -213,6 +213,76 @@ agility:
 1. **Action Phase:** Choose between Attack, Special Move, Item Inventory, or Attempt Escape.
 2. **Execution Phase:** Damage is computed using a custom formula that weighs the attacker's offensive rating against the defender's damage mitigation modifier.
 3. **Status Check:** At the end of every turn, active status effects (such as the signature escalating Poison drain) are applied before handing control back to the player.
+
+## 🛠️ Technical Architecture
+
+Magimals Toxic is engineered to run 
+seamlessly across all modern web 
+browsers by leveraging lightweight, 
+bare-metal web standards. By rejecting 
+bulky modern frameworks, the game 
+loads instantaneously and maintains a 
+flawless rendering rate even on 
+lower-end mobile hardware.
+
+### The Three-Pillar Stack
+* **Markup (HTML5):** Utilizes semantic elements and a high-performance `<canvas>` rendering context to handle real-time sprite updates and fluid screen transitions.
+* **Styling (CSS3):** Employs CSS Grid and Flexbox modules to ensure a perfectly responsive user interface that auto-scales smoothly between desktop monitors and smartphone displays.
+* **Logic (ES6+ JavaScript):** Written entirely in modular object-oriented JavaScript. The architecture splits the core engine into explicit modules for the Game Loop, Input Listener, Combat State Machine, and Audio Controller.
+
+### State Management & Persistence
+The game state is preserved entirely 
+within the user's browser using native 
+`localStorage` integrations. When you 
+save your game, your active party 
+arrays, coordinate positions, and 
+completed trainer flags are serialized 
+into a clean JSON string, allowing you 
+to close your browser and resume your 
+journey at any time without losing a 
+single step of progress.
+
+## ❓ Frequently Asked Questions (FAQ)
+
+#### Q: Can I run this game completely offline?
+**A:** Yes! Because the entire 
+codebase runs client-side in the 
+browser, you can clone the repository 
+and open `index.html` to play the full 
+game without an active internet 
+connection.
+
+#### Q: How do I reset my saved game file?
+**A:** To clear your local save and 
+start your journey fresh, open your 
+browser's Developer Tools (F12), 
+navigate to the Application/Storage 
+tab, select `localStorage`, and clear 
+the keys associated with the 
+repository domain. Alternatively, you 
+can click the in-game "New Game" 
+button if available in your current 
+build version.
+
+#### Q: Is there a limit to how many Magimals I can catch?
+**A:** The base engine supports a 
+dynamic array structure for your party 
+storage, meaning there is no strict 
+hard-coded limit to the number of 
+creatures you can collect. Your active 
+battle team, however, is strictly 
+capped at a tactical size of six.
+
+#### Q: Why is my game lagging on an older browser version?
+**A:** Magimals Toxic utilizes modern 
+JavaScript features like arrow 
+functions, classes, and spread 
+operators. If you experience 
+unexpected script freezes, please 
+ensure your browser is fully updated 
+to the latest stable version to 
+support native ES6 execution.
+
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

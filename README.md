@@ -319,6 +319,36 @@ The `Modifier` variable is a compounding float determined by three core environm
 Thus, the equation is formed:
 $$\text{Modifier} = \text{STAB} \times \text{Effectiveness} \times \text{Critical Hit Bonus, if gotten} $$
 
+## 🎒 Item & Consumables Directory
+
+Items are loaded dynamically into an inventory array map. Below are the base-game items coded into the current item management module:
+
+### 1. Bio-Toxins & Curatives
+* **Antidote Serum:** Neutralizes the escalating Poison status effect completely. Clears the turn-end damage flag.
+* **Nano-Potion:** Instantly restores 20 Flat Hit Points to a selected party member. Can be used mid-battle.
+* **Mega-Regen Drop:** Restores 50 Hit Points and cures minor status anomalies.
+
+### 2. Capture Mechanics
+* **Capsule:** A magnetic capture sphere with a baseline $1.0\times$ catch rate modifier.
+* **Hyper Capsule:** An upgraded containment sphere utilizing reinforced magnetic fields. Features a $1.5\times$ catch rate modifier.
+* **Omega Capsule:** Bypasses the catch probability formula entirely. Guarantees a $100\%$ successful catch rate on any wild target.
+
+### Healing
+* **Light Heal:** Heals 20HP, slightly effective. Heals 25HP for Fairy Types. 
+* **Strong Heal:** Heals 50HP, hard to obtain in dry areas. Especially found in Granite Island
+* **Paramedicine Supreme:** Heals all HP.
+* **Reliever:** Heals all status effects.
+* **Omega Heal:** Heals all HP and status conditions.
+
+### Level Up
+* **Level Leaf:** Gains 20XP. 
+* **Level Token:** Gains 40XP.
+* **Level Supreme:** Gains 100XP.
+
+### Random
+* **Gloop:** Obtained by beating 2 Toxic types.
+* **Bones:** Obtained by beating 2 Normal types.
+* **Apple Core:** Enhances attack stat by 1.
 
 ## 😊 Credits
 Thanks to all people listed

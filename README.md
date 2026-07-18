@@ -316,6 +316,9 @@ The `Modifier` variable is a compounding float determined by three core environm
 * **Type Effectiveness:** Can result in a $2.0\times$ multiplier (Super Effective), a $0.5\times$ multiplier (Not Very Effective), or a $0.0\times$ multiplier (Immune).
 * **Critical Hit Chance:** A random roll based on the creature's native Speed tier. A successful critical hit bypasses defensive stat boosts and applies a flat $1.5\times$ damage increase.
 
+Thus, the equation is formed:
+$$\text{Modifier} = \text{STAB} \times \text{Effectiveness} \times \text{Critical Hit Bonus, if gotten} $$
+
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

@@ -7,7 +7,12 @@ website. Magimals Toxic is a fanmade
 Pokemon game, but not associated 
 with Nintendo at all. 
 
-*Disclaimer: Magimals Toxic is a non-profit, fan-made project. It is inspired by the Pokémon franchise but is not affiliated with, endorsed by, or associated with Nintendo, Game Freak, or The Pokémon Company.*
+*Disclaimer: Magimals Toxic is a
+non-profit, fan-made project. It is 
+inspired by the Pokémon franchise but 
+is not affiliated with, endorsed by, 
+or associated with Nintendo, Game 
+Freak, or The Pokémon Company.*
 ## 🔨 Made with
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
@@ -289,3 +294,8 @@ Thanks to all people listed
 to join the group and made their
 contributions. And thanks to you,
 for viewing Magimals Toxic. 
+
+Much work has gone into this project,
+and I'm glad to see all that
+progress recognised by the
+world. 

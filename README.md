@@ -13,6 +13,8 @@ with Nintendo at all.
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-%23CB171E.svg?style=for-the-badge&logo=yaml&logoColor=white)
 ## 🔗 Links
 * [Main Website](https://webdesignercameron.github.io/magimals-toxic)
 * [Contributors](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/contributors.md)

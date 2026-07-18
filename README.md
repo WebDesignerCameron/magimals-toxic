@@ -288,6 +288,21 @@ ensure your browser is fully updated
 to the latest stable version to 
 support native ES6 execution.
 
+## 🧮 Advanced Battle Math & Damage Formulas
+
+To ensure competitive balance and predictable strategy, Magimals Toxic utilizes standard deterministic damage algorithms. Modifiers are calculated sequentially during the battle execution phase.
+
+### Core Damage Equation
+The standard physical damage delivered by an attacking Magimal is calculated using the following formula:
+
+$$\text{Damage} = \left( \frac{\left( \frac{2 \times \text{Level}}{5} + 2 \right) \times \text{Power} \times \frac{\text{Attack}}{\text{Defense}}}{50} + 2 \right) \times \text{Modifier}$$
+
+### Modifier Breakdowns
+The `Modifier` variable is a compounding float determined by three core environmental checks:
+* **STAB (Same Type Attack Bonus):** Grants a $1.5\times$ multiplier if the move type matches the attacking creature's primary element.
+* **Type Effectiveness:** Can result in a $2.0\times$ multiplier (Super Effective), a $0.5\times$ multiplier (Not Very Effective), or a $0.0\times$ multiplier (Immune).
+* **Critical Hit Chance:** A random roll based on the creature's native Speed tier. A successful critical hit bypasses defensive stat boosts and applies a flat $1.5\times$ damage increase.
+
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

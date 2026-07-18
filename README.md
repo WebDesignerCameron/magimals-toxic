@@ -97,3 +97,6 @@ experience.
 * Unique Magimal abilities
 * Exploration-focused maps
 * Story-driven progression
+## Contributing
+To contribute, see our
+[contributing guidelines](CONTRIBUTING.md). 

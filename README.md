@@ -105,9 +105,10 @@ development. Features may change,
 but the overall theme will stay the
 same. 
 ### Summary
-* A **massive** map with many details
-* A **wide variety** of creatures to catch
-* A **thrilling** adventure awaiting anyone who steps into the dark world of ***Magimals Toxic***... 
+* [ ] A **massive** map with many details
+* [ ] A **wide variety** of creatures to catch
+* [ ] A **thrilling** adventure awaiting anyone who steps into the dark world of ***Magimals Toxic***...
+* [ ] **Status Conditions:** Integrating "Toxic" type mechanics like poison scaling and damage-over-time status effects during battles.
 ### Maps
 The maps of the 4 ferocious islands
 contain routes, paths, shores, and

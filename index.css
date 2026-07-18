@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{font-family:"Calibri"; font-size: 10; background: white; color: black; }
+body{font-family:"Calibri"; font-size: 10px; background: white; color: black; }
 #logo{ width: 240px; margin: auto; margin-right: 10px; }
-header{color:white;outline:3px solid white;padding:5px;margin:auto; width: calc(100vw-4px); background:black;}
+header{color:white;outline:3px solid white;padding:5px;margin:auto; width: calc(100vw - 4px); background:black;}
 nav a{
     color: grey; flex: auto; margin: auto;
 }
@@ -31,7 +31,7 @@ article{
 h2{color:blue;}
 h2.not{color:white;}
 h2.notb{color:black;}
-footer{background:black;color:white;margin-top:10px;padding-top:50px;padding-bottom:50px;font-size:20;}
+footer{background:black;color:white;margin-top:10px;padding-top:50px;padding-bottom:50px;font-size:20px;}
 .cal{font-family:"Calibri"; }
 .logo-s{
     display: flex;

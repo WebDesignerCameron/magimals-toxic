@@ -8,6 +8,10 @@ Pokemon game, but not associated
 with Nintendo at all. 
 
 *Disclaimer: Magimals Toxic is a non-profit, fan-made project. It is inspired by the Pokémon franchise but is not affiliated with, endorsed by, or associated with Nintendo, Game Freak, or The Pokémon Company.*
+## 🔨 Made with
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 ## 🔗 Links
 * [Main Website](https://webdesignercameron.github.io/magimals-toxic)
 * [Contributors](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/contributors.md)

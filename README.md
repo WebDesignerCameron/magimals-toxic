@@ -36,6 +36,6 @@ Game Version:    Prerelease
 
 PRs:             5
 
-Closed PRs:      4
+Closed PRs:      5
 
 Working on:      Beta 1

@@ -46,6 +46,7 @@ will ahead of you.
 Since Beta 1.0 isn't released, there
 is no available version. 
 ## 📈 GitHub Stats
+
 Type:            Repository         
 
 Latest Release:  N/A
@@ -57,6 +58,10 @@ PRs:             7
 Merged PRs:      6
 
 Closed PRs:      7
+
+Branches:        2
+
+Ongoing PRs:     1
 
 ## ⚒️ Working on
 

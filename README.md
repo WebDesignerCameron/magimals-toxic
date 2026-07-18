@@ -378,11 +378,12 @@ and support people who find it hard
 to move properly, like arthritis or
 something else. 
 
-## 🎨 User Interface DOM Hierarchy
+## 🎨 User Interface DOM
 
 The structural layout of the game 
 overlays directly onto the primary 
 HTML Document Object Model. 
+This is to ensure it is lightweight. 
 
 ## 😊 Credits
 Thanks to all people listed

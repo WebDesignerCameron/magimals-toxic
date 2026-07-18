@@ -1,5 +1,4 @@
 # Src
-The src folder holds the link to the 
-Cpp source code, folder maker 
+The src folder holds the JS source code, folder maker 
 description, 
 and the .gitignore. 

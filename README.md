@@ -164,7 +164,7 @@ unorder. What lies there haunts
 many, an unforseen **horror**... 
 ## 😊 Credits
 Thanks to all people listed
-[here](CONTRIBUTORS.md), who decided
+[here](contributors.md), who decided
 to join the group and made their
 contributions. And thanks to you,
 for viewing Magimals Toxic. 

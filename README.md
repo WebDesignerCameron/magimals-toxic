@@ -404,7 +404,7 @@ The game logic is continuously tested against strict layout rendering engines to
 ## 📦 Magimals Storage
 To facilitate rapid future extensions of the game's roster, all wild Magimals are loaded into memory using a standardized, predictable database schema pattern.
 
-```json
+```txt
 {
   "magimalId": "MAGI_num",
   "name": "Whatever",

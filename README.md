@@ -48,13 +48,14 @@ is no available version.
 ## 📈 GitHub Stats
 Type:            Repository         
 
-Latest Release:  N/A
+![Latest relase](https://img.shields.io/github/v/release/USER/REPO?label=latest%20version&color=orange)
+  N/A
 
 Game Version:    Prerelease
 
-PRs:             6
+PRs:             7
 
-Closed PRs:      6
+Closed PRs:      7
 
 ## ⚒️ Working on
 

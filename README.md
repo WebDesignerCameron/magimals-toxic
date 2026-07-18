@@ -319,6 +319,7 @@ The `Modifier` variable is a compounding float determined by three core environm
 Thus, the equation is formed:
 $$\text{Modifier} = \text{STAB} \times \text{Effectiveness} \times \text{Critical Hit Bonus, if gotten} $$
 
+
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

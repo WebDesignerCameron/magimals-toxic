@@ -292,6 +292,19 @@ support native ES6 execution.
 
 To ensure competitive balance and predictable strategy, Magimals Toxic utilizes standard deterministic damage algorithms. Modifiers are calculated sequentially during the battle execution phase.
 
+### Stats
+Each Magimals has a set of stats
+for each level:
+* Attack
+* Defense
+* Speed
+* Sp. Atk
+* Sp. Def
+* Confidence
+
+Confidence is derived from other stats:
+$$\text{Confidence} =  \frac{Level}{Opponent's Level} \times 1.1$$
+
 ### Core Damage Equation
 The standard physical damage delivered by an attacking Magimal is calculated using the following formula:
 

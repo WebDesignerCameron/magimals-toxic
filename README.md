@@ -358,6 +358,21 @@ Due to the grid-based map structure and deterministic RNG seed generation, Magim
 1. **Starter Optimization:** Selecting a high-Speed starter allows you to consistently strike first in early-game encounters, saving valuable real-world seconds across the run.
 2. **Manipulations:** Walking strictly on the outer perimeter lines of encounter areas minimizes the tile-step encounter check loops, significantly reducing random battle triggers.
 
+## ⌨️ Complete Keyboard Interface Map
+
+For maximum tactical control and lightning-fast menu navigation, the complete input handling loop maps directly to standard QWERTY profiles:
+
+| Action Category | Key Binding (Primary) | Key Binding (Secondary) | Engine Event Trigger |
+| :--- | :--- | :--- | :--- |
+| **Move Up** | `W` | `Up Arrow` | `player_move_y(-1)` |
+| **Move Down** | `S` | `Down Arrow` | `player_move_y(1)` |
+| **Move Left** | `A` | `Left Arrow` | `player_move_x(-1)` |
+| **Move Right** | `D` | `Right Arrow` | `player_move_x(1)` |
+| **Interact / Select** | `Spacebar` | `Enter` | `ui_execute_confirm()` |
+| **Cancel / Menu Back**| `Escape` | `Backspace` | `ui_execute_cancel()` |
+| **Open Inventory** | `I` | `E` | `ui_toggle_backpack()` |
+
+
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

@@ -5,7 +5,12 @@
 This is the official Magimals Toxic 
 website. Magimals Toxic is a fanmade
 Pokemon game, but not associated 
-with Nintendo at all. 
+with Nintendo at all. Magimals Toxic, 
+a WebDesignerCameron Project, was
+created by
+[WebDesignerCameron](https://github.com/WebDesignerCameron)
+and the other contributors listed
+[here](contributors.md). 
 
 *Disclaimer: Magimals Toxic is a
 non-profit, fan-made project. It is 

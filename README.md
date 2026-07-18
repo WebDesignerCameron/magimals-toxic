@@ -44,8 +44,6 @@ will ahead of you.
 Since Beta 1.0 isn't released, there
 is no available version. 
 ## 📈 GitHub Stats
-Stat:            Stat Value
-
 Type:            Repository         
 
 Latest Release:  N/A

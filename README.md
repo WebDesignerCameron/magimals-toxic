@@ -401,6 +401,27 @@ The game logic is continuously tested against strict layout rendering engines to
 | **Apple Safari** | WebKit / JavaScriptCore | v15.0+ | Verified |
 | **Microsoft Edge** | Chromium Evolution | v92.0+ | Fully Verified (Native) | 
 
+## 📦 Magimals Storage
+To facilitate rapid future extensions of the game's roster, all wild Magimals are loaded into memory using a standardized, predictable database schema pattern.
+
+```json
+{
+  "magimalId": "MAGI_num",
+  "name": "Whatever",
+  "primaryType": "Type1",
+  "secondaryType": "Type2", 
+  "stats": [
+      {"hp": "level1hp",...},
+      {.... 
+  ],
+  "movePool": [
+    {"levelLearned": level, "moveId": "MOVE_move"},
+    {"levelLearned": level, "moveId": "MOVE_move"},
+    {"levelLearned": level, "moveId": "MOVE_move"}
+  ]
+}
+```
+
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

@@ -52,9 +52,11 @@ Latest Release:  N/A
 
 Game Version:    Prerelease
 
-PRs:             6
+PRs:             7
 
-Closed PRs:      6
+Merged PRs:      6
+
+Closed PRs:      7
 
 ## ⚒️ Working on
 

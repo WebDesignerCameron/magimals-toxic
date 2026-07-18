@@ -25,6 +25,9 @@ take the slow road and eventually work
 your way through the detailed plot twists 
 and breath-taking adventures that you 
 will ahead of you. 
+## Running Magimals Toxic
+Since Beta 1.0 isn't released, there
+is no available version. 
 ## GitHub Stats
 Stat:            Stat Value
 
@@ -38,4 +41,8 @@ PRs:             6
 
 Closed PRs:      6
 
-Working on:      Beta 1
+## Working on
+✅ Game Grid Setup
+⬜ Game Design
+⬜ Graphics
+⬜ Beta 1.0

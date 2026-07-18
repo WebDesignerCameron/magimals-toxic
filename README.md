@@ -350,6 +350,14 @@ Items are loaded dynamically into an inventory array map. Below are the base-gam
 * **Bones:** Obtained by beating 2 Normal types.
 * **Apple Core:** Enhances attack stat by 1.
 
+## ⏱️ Speedrunning & Optimization Guide
+
+Due to the grid-based map structure and deterministic RNG seed generation, Magimals Toxic is highly optimized for competitive speedrunning categories (Any% and Glitchless%).
+
+### Key Routing Strategies
+1. **Starter Optimization:** Selecting a high-Speed starter allows you to consistently strike first in early-game encounters, saving valuable real-world seconds across the run.
+2. **Manipulations:** Walking strictly on the outer perimeter lines of encounter areas minimizes the tile-step encounter check loops, significantly reducing random battle triggers.
+
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

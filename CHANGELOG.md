@@ -22,3 +22,10 @@ of
 [Magimals Toxic](https://github.com/WebDesignerCameron/magimals-toxic) 
 is in
 [src.git](https://github.com/WebDesignerCameron/src.git). 
+##### 8th-17th
+Made several pull requests, also
+enhanced [README.md](README.md).
+##### 18th
+Started work on version Beta 1.
+Made enhancements to some
+Markdown files. 

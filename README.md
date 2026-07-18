@@ -90,3 +90,8 @@ on to achieve higher, and when
 you do, happiness rains down on
 you. The game is a truly satisfying
 experience. 
+### Gameplay
+* Turn-based battles
+* Unique Magimal abilities
+* Exploration-focused maps
+* Story-driven progression

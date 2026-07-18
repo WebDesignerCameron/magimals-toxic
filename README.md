@@ -66,7 +66,10 @@ Because the game is entirely client-side, you can host or play it instantly with
    # If you use VS Code, use the Live Server extension, or run:
    npx serve .
    ```
-
+## 🏗️ Game Architecture
+### Codebase Constraints
+* **Pure Vanilla Stack:** Built completely using standard HTML5 Canvas, CSS grid layouts, and native ES6+ JavaScript.
+* **Zero Dependencies:** No heavy external frameworks or bulky engines to ensure lightning-fast browser load times. 
 ## 📈 GitHub Stats
 
 Type:            Repository         

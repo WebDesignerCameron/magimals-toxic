@@ -52,6 +52,33 @@ Closed PRs:      6
 ⬜ Beta 1.0
 
 ## Features
+### Notice
+🚦 Magimals Toxic is still in development, features may change. 
+### Summary
 * A **massive** map with many details
 * A **bountiful** amount of creatures to catch
 * A **thrilling** adventure awaiting anyone who steps into the dark world of ***Magimals Toxic***... 
+### Maps
+The maps of the 4 ferocious islands
+contain routes, paths, shores, and
+cities, giving you a large
+area to explore. Maps may
+change over the course of
+development, but key premises will
+remain.
+### Creatures
+Many creatures will be there to be
+collected, with over 100 planned
+to be in the game. Each
+Magimal was masterly crafted
+by the Concept Production Team,
+every one of them having a
+unique set of skills and
+quircks.
+### Adventure
+Each breath-taking moment
+hardwires a resonating sense of
+accomplishment in the player,
+making a pleasant experience
+for anyone lucky enough to
+encounter the game. 

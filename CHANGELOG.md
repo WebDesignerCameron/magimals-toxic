@@ -29,3 +29,4 @@ enhanced [README.md](README.md).
 Started work on version Beta 1.
 Made enhancements to some
 Markdown files. 
+Made README.md way better. 

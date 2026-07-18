@@ -50,3 +50,8 @@ Closed PRs:      6
 ⬜ Graphics
 
 ⬜ Beta 1.0
+
+## Features
+* A **massive** map with many details
+* A **bountiful** amount of creatures to catch
+* A **thrilling** adventure awaiting anyone who steps into the dark world of ***Magimals Toxic***... 

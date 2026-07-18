@@ -100,3 +100,44 @@ experience.
 ## Contributing
 To contribute, see our
 [contributing guidelines](CONTRIBUTING.md). 
+## Backstory
+Many millenia ago, creatures known
+as the ancient Magimals roamed the
+Earth, seeking a higher power they
+could exploit. A tragic family's
+descendants are the humans and the
+Magimals known today. 
+## World
+### Summary
+You travel through 4 completely
+different islands to venture
+to the final fight. The fight
+against ***Magmor...***
+### Gems
+To progress, you must collect the
+3 gems of power from various islands, 
+giving you an ability the ancient
+Magimals could only dream of. 
+### Starter Island
+You start out as an adventurous kid
+who lives in Homteon, Starter Island,
+a nice little village surrounded by
+thick forests, suited for a good
+adventure.
+### Granite Island
+After collecting the Fire Gem from
+Starter Island, you row your boat
+to Granite Island, a grassy plateau
+of interesting inhabitants. There
+you collect the Grass Gem.
+### Montacia Island
+You move along to Montacia Island,
+a mountainous location highlighted
+by its great Oscilla Mountains.
+You obtain the Water Gem.
+### Final Island
+In a swift turn of events, you
+arrive at the dreaded Final Island,
+a fiery tomb of chaos and
+unorder. What lies there haunts
+many, an unforseen **horror**... 

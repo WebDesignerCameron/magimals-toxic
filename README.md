@@ -308,7 +308,7 @@ $$\text{Confidence} =  \frac{Level}{Opponent's Level} \times 1.1$$
 ### Core Damage Equation
 The standard physical damage delivered by an attacking Magimal is calculated using the following formula:
 
-$$\text{Damage} = \left( \frac{\left( \frac{2 \times \text{Level}}{5} + 2 \right) \times \text{Power} \times \frac{\text{Attack}}{\text{Defense}}}{50} + 2 \right) \times \text{Modifier}$$
+$$\text{Damage} = \left( \text{Power} \times \frac{\text{Attack}}{\text{Opponent's Defense}}} \right) \times \text{Modifier}$$
 
 ### Modifier Breakdowns
 The `Modifier` variable is a compounding float determined by three core environmental checks:

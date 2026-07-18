@@ -53,10 +53,13 @@ Closed PRs:      6
 
 ## Features
 ### Notice
-🚦 Magimals Toxic is still in development, features may change. 
+🚦 Magimals Toxic is still in 
+development. Features may change, 
+but the overall theme will stay the
+same. 
 ### Summary
 * A **massive** map with many details
-* A **bountiful** amount of creatures to catch
+* A **wide variety** of creatures to catch
 * A **thrilling** adventure awaiting anyone who steps into the dark world of ***Magimals Toxic***... 
 ### Maps
 The maps of the 4 ferocious islands
@@ -74,11 +77,16 @@ Magimal was masterly crafted
 by the Concept Production Team,
 every one of them having a
 unique set of skills and
-quircks.
+quirks.
 ### Adventure
 Each breath-taking moment
 hardwires a resonating sense of
 accomplishment in the player,
 making a pleasant experience
 for anyone lucky enough to
-encounter the game. 
+encounter the game. A rewarding 
+level of progression spurs you
+on to achieve higher, and when
+you do, happiness rains down on
+you. The game is a truly satisfying
+experience. 

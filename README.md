@@ -1,4 +1,6 @@
 # Magimals Toxic
+## Logo
+![Magimals Toxic Logo](readme_logo.jpg)
 ## Summary
 This is the official Magimals Toxic 
 website. Magimals Toxic is a fanmade

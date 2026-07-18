@@ -45,7 +45,28 @@ will ahead of you.
 ## 🧑‍💻 Running Magimals Toxic
 Since Beta 1.0 isn't released, you
 can only see the website, linked
-[here](https://webdesignercameron.github.io/magimals-toxic).
+[here](https://webdesignercameron.github.io/magimals-toxic). You can also see
+the website differently, see below.
+
+## 🚀 Quick Start & Local Run
+
+Because the game is entirely client-side, you can host or play it instantly without a heavy local environment.
+
+### Run Locally
+1. Clone the project to your local machine:
+   ```bash
+   git clone https://github.com
+   ```
+2. Navigate into the directory:
+   ```bash
+   cd pokemon-toxic
+   ```
+3. Open `index.html` directly in any modern web browser, or use a basic development server:
+   ```bash
+   # If you use VS Code, use the Live Server extension, or run:
+   npx serve .
+   ```
+
 ## 📈 GitHub Stats
 
 Type:            Repository         

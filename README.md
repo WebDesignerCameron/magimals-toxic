@@ -140,7 +140,7 @@ giving you an ability the ancient
 Magimals could only dream of. 
 ### Starter Island
 You start out as an adventurous kid
-who lives in Homteon, Starter Island,
+who lives in Hometon, Starter Island,
 a nice little village surrounded by
 thick forests, suited for a good
 adventure.

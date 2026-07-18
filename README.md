@@ -417,7 +417,8 @@ To facilitate rapid future extensions of the game's roster, all wild Magimals ar
   "movePool": [
     {"levelLearned": level, "moveId": "MOVE_move"},
     {"levelLearned": level, "moveId": "MOVE_move"},
-    {"levelLearned": level, "moveId": "MOVE_move"}
+    {"levelLearned": level, "moveId": "MOVE_move"},
+    ... 
   ]
 }
 ```

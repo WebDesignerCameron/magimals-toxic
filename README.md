@@ -187,6 +187,32 @@ arrive at the dreaded Final Island,
 a fiery tomb of chaos and
 unorder. What lies there haunts
 many, an unforseen **horror**... 
+
+## 🧪 Deep-Dive Gameplay Mechanics
+
+The gameplay of Magimals Toxic relies 
+on tight loops, deterministic 
+calculations, and risk-versus-reward 
+tactical choices. 
+
+### Grid-Based Navigation Matrix
+The game world is represented as a 
+structural 2D coordinate array. 
+* **Safe Pathways:** Clear pathways allow for unhindered movement and zero encounter risks.
+* **Tall Grass / Other Encounters:** Stepping onto these specific tiles triggers a probability-based encounter matrix. You are sent into a battle scene.
+* **Static Obstacles:** Map blockades require specific key items or victory conditions to clear, pacing your progression naturally through the narrative.
+
+### Turn-Based Combat Logic
+When a battle begins, the game state 
+switches from navigation mode to an 
+isolated active combat loop. Turn 
+order is entirely calculated by a 
+hidden Speed stat tier, forcing 
+players to balance raw power against
+agility:
+1. **Action Phase:** Choose between Attack, Special Move, Item Inventory, or Attempt Escape.
+2. **Execution Phase:** Damage is computed using a custom formula that weighs the attacker's offensive rating against the defender's damage mitigation modifier.
+3. **Status Check:** At the end of every turn, active status effects (such as the signature escalating Poison drain) are applied before handing control back to the player.
 ## 😊 Credits
 Thanks to all people listed
 [here](contributors.md), who decided

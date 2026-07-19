@@ -1,7 +1,7 @@
 # Magimals Toxic
-## Logo
+## 👀 Logo
 ![Magimals Toxic Logo](readme_logo.jpg)
-## Summary
+## 🔃 Summary
 This is the official Magimals Toxic 
 website. Magimals Toxic is a fanmade
 Pokemon game, but not associated 
@@ -108,7 +108,7 @@ Ongoing PRs:     1
 
 ⬜ Beta 1.0
 
-## Features
+## 💯 Features
 ### Notice
 🚦 Magimals Toxic is still in 
 development. Features may change, 
@@ -156,7 +156,7 @@ experience.
 ## 👋 Contributing
 To contribute, see our
 [contributing guidelines](CONTRIBUTING.md). 
-## Backstory
+## 🦖 Backstory
 Many millenia ago, creatures known
 as the ancient Magimals roamed the
 Earth, seeking a higher power they

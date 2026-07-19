@@ -1,5 +1,12 @@
 # Magimals Toxic
-## 👀 Logo
+## 👀 Media
+### Theme Song
+Downloadable
+[here](https://github.com/WebDesignerCameron/src.git/blob/main/projects/magimals-toxic/assets/Music/)
+in mp3, m4a, wav, and ogg format, and
+[here](https://github.com/WebDesignerCameron/src.git/blob/main/projects/magimals-toxic/assets/Video/novisual)
+in mp4 format. 
+### Logo
 ![Magimals Toxic Logo](readme_logo.jpg)
 ## 🔃 Summary
 This is the official Magimals Toxic 

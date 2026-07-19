@@ -28,7 +28,7 @@ Freak, or The Pokémon Company.*
 ![Jekyll](https://img.shields.io/badge/Jekyll-333333?style=for-the-badge&logo=Jekyll&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Android](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
-![Love](https://img.shields.io/badge/made%20with-❤️-red)
+![Love](https://img.shields.io/badge/made%20with-❤️-white)
 ## 🔗 Links
 * [Main Website](https://webdesignercameron.github.io/magimals-toxic)
 * [Contributors](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/contributors.md)

@@ -66,11 +66,11 @@ Because the game is entirely client-side, you can host or play it instantly with
 ### Run Locally
 1. Clone the project to your local machine:
    ```bash
-   git clone https://github.com
+   git clone https://github.com/WebDesignerCameron/magimals-toxic
    ```
 2. Navigate into the directory:
    ```bash
-   cd pokemon-toxic
+   cd magimals-toxic
    ```
 3. Open `index.html` directly in any modern web browser, or use a basic development server:
    ```bash

@@ -5,7 +5,8 @@ on:
     branches:
       - main  # Change to master if your default branch is master
   workflow_dispatch: # Allows you to run this manually from the Actions tab
-- cron: '*\5 * * * *'
+  schedule:
+  - cron: '*/5 * * * *'
 
 jobs:
   update-readme:

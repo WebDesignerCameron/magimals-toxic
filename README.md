@@ -34,8 +34,8 @@ Freak, or The Pokémon Company.*
 ![YAML](https://img.shields.io/badge/YAML-%23CB171E.svg?style=for-the-badge&logo=yaml&logoColor=white)
 ![Jekyll](https://img.shields.io/badge/Jekyll-333333?style=for-the-badge&logo=Jekyll&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Android](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
-![Love](https://img.shields.io/badge/made%20with-❤️-white)
+![Android](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white&style=for-the-badge)
+![Love](https://img.shields.io/badge/made%20with-❤️-white&style=for-the-badge)
 ## 🔗 Links
 * [Main Website](https://webdesignercameron.github.io/magimals-toxic)
 * [Contributors](https://github.com/WebDesignerCameron/magimals-toxic/blob/main/contributors.md)
@@ -105,6 +105,9 @@ Closed PRs:      7
 Branches:        2
 
 Ongoing PRs:     1
+
+<!-- COMMIT_COUNT_START --> Total Commits: 0 <!-- COMMIT_COUNT_END -->
+
 
 ## ⚒️ Working on
 

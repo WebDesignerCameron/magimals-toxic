@@ -268,7 +268,12 @@ codebase runs client-side in the
 browser, you can clone the repository 
 and open `index.html` to play the full 
 game without an active internet 
-connection.
+connection. Though, you will also have
+to clone the `src` repository with
+```bash
+git clone https://github.com/WebDesignerCameron/src
+```
+and save the source files. 
 
 #### Q: How do I reset my saved game file?
 **A:** To clear your local save and 

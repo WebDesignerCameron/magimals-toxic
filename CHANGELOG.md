@@ -30,3 +30,8 @@ Started work on version Beta 1.
 Made enhancements to some
 Markdown files. 
 Made README.md way better. 
+##### 19th
+Add build.yml GitHub Actions
+workflow.
+##### 20th
+Fix GitHub Actions workflow. 

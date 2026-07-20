@@ -2,7 +2,10 @@
 *.md linguist-language=Markdown
 *.md linguist-detectable=true
 # Adds YAML
-.github/* linguist-vendored=false
+.github/*.yml linguist-vendored=false
+.github/*.yaml linguist-vendored=false
+.github/workflows/*.yml linguist-vendored=false
+.github/workflows/*.yaml linguist-vendored=false
 *.yaml linguist-language=YAML
 *.yml linguist-language=YAML
 *.yaml linguist-detectable=true

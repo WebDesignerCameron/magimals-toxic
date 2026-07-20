@@ -330,7 +330,7 @@ for each level:
 * Confidence
 
 Confidence is derived from other stats:
-$$\text{Confidence} =  \frac{Level}{Opponent's Level} \times 1.1$$
+$$\text{Confidence} =  \frac{\text{Level}}{\text{Opponent's Level}} \times 1.1$$
 
 ### Core Damage Equation
 The standard physical damage delivered by an attacking Magimal is calculated using the following formula:

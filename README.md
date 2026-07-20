@@ -433,8 +433,15 @@ To facilitate rapid future extensions of the game's roster, all wild Magimals ar
   "primaryType": "Type1",
   "secondaryType": "Type2", 
   "stats": [
-      {"hp": "level1hp",...},
-      {.... 
+      {
+          "hp": 60,
+          "attack": 60,
+          "defense": 60,
+          "speed": 60,
+          "spatk": 60,
+          "spdef": 60
+      },
+      {"multiplierPerLevel":1.1}
   ],
   "movePool": [
     {"levelLearned": level, "moveId": "MOVE_move"},

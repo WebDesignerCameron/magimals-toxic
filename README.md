@@ -1,4 +1,6 @@
 # Magimals Toxic
+![WebDesignerCameron](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/shared/assets/svg/made_by.svg)
+![Made by WebDesignerCameron](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/shared/assets/svg/logo.svg)
 ## 👀 Media
 ### Songs
 Downloadable

@@ -6,7 +6,7 @@ on:
       - main  # Change to master if your default branch is master
   workflow_dispatch: # Allows you to run this manually from the Actions tab
   schedule:
-  - cron: '0 0 * * *'
+  - cron: '*/5 * * * *'
 permissions:
   contents: write
 

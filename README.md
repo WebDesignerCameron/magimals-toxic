@@ -38,6 +38,8 @@ Freak, or The Pokémon Company.*
 ![YAML](https://img.shields.io/badge/YAML-%23CB171E.svg?style=for-the-badge&logo=yaml&logoColor=white)
 ![Jekyll](https://img.shields.io/badge/Jekyll-333333?style=for-the-badge&logo=Jekyll&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Formspree](https://img.shields.io/badge/Formspree-E11241?style=for-the-badge&logo=formspree&logoColor=white)
+![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Android](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white&style=for-the-badge)
 ![Love](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-white.svg?style=for-the-badge) 
 ## 🔗 Links

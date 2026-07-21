@@ -3,8 +3,8 @@
 ![WebDesignerCameron](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/shared/assets/svg/made_by.svg)
 ![Made by WebDesignerCameron](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/shared/assets/svg/logo.svg)
 ![Magimals Toxic](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/magimals-toxic/assets/Images/svg/badge.svg)
-###### To access the Magimals Toxic
-###### badge, add this to your code:
+To access the Magimals Toxic
+badge, add this to your code:
 ```markdown
 ![Magimals Toxic](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/magimals-toxic/assets/Images/svg/badge.svg)
 ```

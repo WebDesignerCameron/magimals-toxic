@@ -52,6 +52,7 @@ Freak, or The Pokémon Company.*
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google%20Gemini-886FBF?style=for-the-badge&logo=googlegemini&logoColor=white)
 ![Jekyll Sitemap](https://img.shields.io/gem/v/jekyll-sitemap?style=for-the-badge&logo=jekyll&logoColor=white)
+![SVG](https://img.shields.io/badge/SVG-FFB13B?style=for-the-badge&logo=svg&logoColor=white)
 ![Android](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white&style=for-the-badge)
 ![Love](https://img.shields.io/badge/made%20with-%E2%9D%A4%EF%B8%8F-white.svg?style=for-the-badge) 
 ## 🔗 Links

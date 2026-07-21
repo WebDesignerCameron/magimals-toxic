@@ -22,5 +22,10 @@ authors:
         alt-name1: "Lyra Libbie" 
   - given-name: "Liam" 
     alt-names: "None" 
+  - given-name: "Mustafa" 
+    alt-names:
+        alt-name1: "Lion Boy" 
+  - given-name: "Stephen"
+    alt-names: "None" 
 title: "Magimals Toxic" 
 url: "https://webdesignercameron.github.io/magimals-toxic" 

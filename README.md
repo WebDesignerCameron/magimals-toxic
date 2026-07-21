@@ -47,7 +47,6 @@ Freak, or The Pokémon Company.*
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![YAML](https://img.shields.io/badge/YAML-%23CB171E.svg?style=for-the-badge&logo=yaml&logoColor=white)
 ![Jekyll](https://img.shields.io/badge/Jekyll-333333?style=for-the-badge&logo=Jekyll&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Formspree](https://img.shields.io/badge/Formspree-E11241?style=for-the-badge&logo=formspree&logoColor=white)
 ![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)

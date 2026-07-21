@@ -3,8 +3,8 @@ name: Update Commit Count
 on:
   push:
     branches:
-      - main  # Change to master if your default branch is master
-  workflow_dispatch: # Allows you to run this manually from the Actions tab
+      - main  
+  workflow_dispatch: 
   schedule:
   - cron: '0 0 * * *'
 permissions:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Fetches full history to count all commits properly
+          fetch-depth: 0 
 
       - name: Calculate Total Commits
         id: count_commits

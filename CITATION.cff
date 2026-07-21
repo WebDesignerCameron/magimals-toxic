@@ -6,5 +6,21 @@ authors:
         alt-name1: "WebDesignerCameron" 
         alt-name2: "Floof Loof" 
     github: "WebDesignerCameron" 
+  - given-name: "Brogan" 
+    alt-names:
+        alt-name1: "BMal" 
+        alt-name2: "The Boss" 
+  - given-name: "Yunis" 
+    alt-names:
+        alt-name1: "Unis" 
+        alt-name2: "Unicorn" 
+        alt-name3: "Unicycle" 
+  - given-name: "Adrian" 
+    alt-names: "None" 
+  - given-name: "Lyra-Leigh" 
+    alt-names:
+        alt-name1: "Lyra Libbie" 
+  - given-name: "Liam" 
+    alt-names: "None" 
 title: "Magimals Toxic" 
 url: "https://webdesignercameron.github.io/magimals-toxic" 

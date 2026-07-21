@@ -2,6 +2,9 @@ cff-version: 1.2.0
 message: "If you are to reference this project, please cite it like this. " 
 authors:
   - given-name: "Cameron" 
-    alt-name: "WebDesignerCameron" 
+    alt-names:
+        alt-name1: "WebDesignerCameron" 
+        alt-name2: "Floof Loof" 
+    github: "WebDesignerCameron" 
 title: "Magimals Toxic" 
 url: "https://webdesignercameron.github.io/magimals-toxic" 

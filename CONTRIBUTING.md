@@ -46,3 +46,6 @@ and make a pull request, or execute
 ```bash
 gh pr create --title "Your PR Title" --body "Description of changes"
 ```
+## Thank You
+Thank you for thinking about
+contributing to Magimals Toxic! 

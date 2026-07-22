@@ -38,3 +38,11 @@ the star, or execute
 ```bash
 gh repo fork WebDesignerCameron/magimals-toxic
 ```
+Make your changes,
+```bash
+git push -u origin YOUR_BRANCH
+```
+and make a pull request, or execute
+```bash
+gh pr create --title "Your PR Title" --body "Description of changes"
+```

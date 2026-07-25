@@ -15,3 +15,18 @@ body:
     table: "evolutions..."
   - hash2: "Moves"
     table: "moves..." 
+  - hash2: "Links"
+    link:
+        textContent: "Magimals Toxic"
+        url: "https://webdesignercameron.github.io/magimals-toxic"
+    link:
+        textContent: "Magimals Toxic Repository"
+        url: "https://github.com/WebDesignerCameron/magimals-toxic"
+    link:
+        textContent: "Back to Magimals Toxic Magimals"
+        url: "https://github.com/WebDesignerCameron/magimals-toxic/blob/main/docs/mag/readme.md" 
+        relativeurl: "./readme.md"
+    link:
+        textContent: "Back to Magimals Toxic Docs"
+        url: "https://github.com/WebDesignerCameron/magimals-toxic/blob/main/docs/readme.md"
+        relativeurl: "../readme.md" 

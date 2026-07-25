@@ -16,3 +16,8 @@ Fire.
 | 1         | Revo  |
 ## Moves
 Undecided as of now. 
+## Links
+* [Magimals Toxic](https://webdesignercameron.github.io/magimals-toxic)
+* [Magimals Toxic Repository](https://github.com/WebDesignerCameron/magimals-toxic)
+* [Back to Magimals Toxic Magimals](./readme.md)
+* [Back to Magimals Toxic Docs](../readme.md)

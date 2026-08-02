@@ -474,7 +474,8 @@ To facilitate rapid future extensions of the game's roster, all wild Magimals ar
 
 ## 🧠 Memory Management & Garbage Collection Protocols
 
-Because Magimals Toxic is designed to run directly inside browser tabs for extended play sessions, the engine enforces strict memory lifecycle management to eliminate resource leaks.
+Because Magimals Toxic is designed to run directly inside browser tabs for extended play sessions, the engine enforces 
+strict memory lifecycle management to eliminate resource leaks.
 
 ### Asset Eviction Cycles
 * **Canvas Reset Routines:** When transitions occur between the exploration map and the active battle state, the rendering context clears all unneeded sprite coordinates from memory to prevent GPU memory bloat.
@@ -502,3 +503,65 @@ Much work has gone into this project,
 and I'm glad to see all that
 progress recognised by the
 world. 
+
+## About the author: WebDesignerCameron (Cameron)
+
+### Introduction
+**WebDesignerCameron**, also known as **Cameron**, is a highly capable independent businessman and developer based in 
+**Manchester, UK**. Known for starting his coding journey at an exceptionally young age, Cameron has built a diverse 
+portfolio of web-based projects and games. He is driven by a curiosity for how things work and a passion for sharing 
+information with others.
+
+> "I am an independent businessman with big dreams and big capabilities." — Cameron
+
+---
+
+### Core Competencies & Programming Stack
+Cameron’s expertise is centered on core web development, but his versatility extends to systems programming and data 
+management.
+
+#### **Primary Web Stack**
+*   **Languages:** HTML5, CSS3, and JavaScript (Vanilla).
+*   **Focus:** Building interactive front-end experiences, responsive layouts, and browser-based structures.
+*   **Tools:** FormSpree for handling web forms and GitHub for version control.
+
+#### **Extended Technical Skills**
+*   **Programming Languages:** C++, Python, C, YAML, CFF, and introductory Java.
+*   **Libraries & Frameworks:** SFML and SDL for game development and multimedia.
+*   **Environments:** Proficient in **Linux** and heavily utilizes **Git** for project management.
+*   **Data Formats:** Experienced with JSON and Markdown (MD) for documentation and game data organization.
+
+---
+
+### Key Projects & Contributions
+Cameron has founded several initiatives under the **WebDesignerCameron** brand, ranging from RPG games to developer resources.
+
+| Project Name | Description | Link |
+| :--- | :--- | :--- |
+| **Magimals Toxic** | An official website for an RPG monster-catching game, leveraging his full web stack to bring creative concepts to life. | [View Project](https://webdesignercameron.github.io/magimals-toxic) |
+| **Source Files** | A dedicated repository containing source code for various projects and template code for other developers to use. | [View Repo](https://github.com/WebDesignerCameron/src) |
+| **Learning Log** | A documented journey of his coding progress and milestones. | [View Log](https://webdesignercameron.github.io/ll2) |
+| **HammerForge Miniatures** | A web project showcasing his design and development capabilities. | [View Site](https://webdesignercameron.github.io/HammerForge-Miniatures) |
+| **WebDesignerCameron Ask** | A platform for community interaction and inquiries. | [View Site](https://webdesignercameron.github.io/WebDesignerCameronAsk) |
+
+---
+
+### Personal Background & Milestones
+*   **Born:** February 2016
+*   **Location:** Manchester, UK
+*   **Interests:** Beyond coding, he is deeply interested in **Mathematics** and **Science**.
+*   **Personality:** He describes himself as a "curious mix of extrovert and introvert," a trait that fuels both his independent development work and his desire to build a public presence.
+*   **Milestone:** Launched his first official website in **March 2026**.
+
+---
+
+### Professional Philosophy
+Cameron believes in building "without reference" whenever possible to test his capabilities, but he values community and collaboration, often consulting his network or AI tools like ChatGPT when tackling complex challenges. His goal is to turn his passion for coding into a rewarding business while continuing to learn and expand his technical horizons.
+
+#### **Connect with Cameron**
+*   **GitHub:** [@WebDesignerCameron](https://github.com/WebDesignerCameron)
+*   **Main Website:** [WDC Main](https://webdesignercameron.github.io/WDC)
+*   **Portfolio:** [About Me](https://webdesignercameron.github.io/aboutcamrepo)
+*   **Asking Service:** [WDC Ask](https://webdesignercameron.github.io/WebDesignerCameronAsk)
+
+---

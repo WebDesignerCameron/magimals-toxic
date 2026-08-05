@@ -75,7 +75,7 @@ Employed.
 Post-website, after Adrian. 
 ### Theo
 #### Role
-Concept production.
+Concept production, Game tester, Analyst.
 #### Status
 Employed.
 #### Time hired

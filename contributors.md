@@ -73,3 +73,10 @@ project overseeing assistant.
 Employed. 
 #### Time hired
 Post-website, after Adrian. 
+### Theo
+#### Role
+Concept production.
+#### Status
+Employed.
+#### Time hired
+After game started being coded, post-Adrian.

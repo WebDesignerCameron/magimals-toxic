@@ -20,21 +20,13 @@ in mp4 format.
 ![Magimals Toxic Logo](readme_logo.jpg)
 ## 🔃 Summary
 This is the official Magimals Toxic 
-website. Magimals Toxic is a fanmade
-Pokemon game, but not associated 
-with Nintendo at all. Magimals Toxic, 
+website. Magimals Toxic, 
 a WebDesignerCameron Project, was
 created by
 [WebDesignerCameron](https://github.com/WebDesignerCameron)
 and the other contributors listed
 [here](contributors.md). 
 
-*Disclaimer: Magimals Toxic is a
-non-profit, fan-made project. It is 
-inspired by the Pokémon franchise but 
-is not affiliated with, endorsed by, 
-or associated with Nintendo, Game 
-Freak, or The Pokémon Company.*
 ## 🔨 Made with
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![Manus AI](https://img.shields.io/badge/Manus%20AI-34322D?style=for-the-badge&logo=openai&logoColor=white)

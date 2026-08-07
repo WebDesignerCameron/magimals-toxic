@@ -26,6 +26,10 @@ created by
 [WebDesignerCameron](https://github.com/WebDesignerCameron)
 and the other contributors listed
 [here](contributors.md). 
+### Documentation
+This is the main documentation, though you can find others by clicking
+on the word 'Markdown' underneath the languages bar or you can head to
+[docs](./docs/).
 
 ## 🔨 Made with
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)

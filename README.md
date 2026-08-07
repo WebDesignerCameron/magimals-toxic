@@ -118,15 +118,15 @@ Latest Release:  N/A
 
 Game Version:    Prerelease
 
-PRs:             7
+PRs:             9
 
-Merged PRs:      6
+Merged PRs:      8
 
-Closed PRs:      7
+Closed PRs:      9
 
-Branches:        2
+Branches:        1
 
-Ongoing PRs:     1
+Ongoing PRs:     0
 
 <!-- COMMIT_COUNT_START --> Total Commits: 350 <!-- COMMIT_COUNT_END -->
 (updated daily, may not be accurate) 

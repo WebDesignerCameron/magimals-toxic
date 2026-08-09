@@ -133,13 +133,13 @@ Ongoing PRs:     0
 
 ## ⚒️ Working on
 
-✅ Game Grid Setup
+* [x] Game Grid Setup
 
-⬜ Game Design
+* [ ] Game Design
 
-⬜ Graphics
+* [ ] Graphics
 
-⬜ Beta 1.0
+* [ ] Alpha 1.0
 
 ## 💯 Features
 ### Notice

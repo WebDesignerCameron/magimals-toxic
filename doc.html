@@ -1,0 +1,795 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0" />
+        <title>Magimals Toxic Documentation</title>
+    </head>
+  <body>
+    <div class="magimals-toxic-readme" style="
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 32px;
+      box-sizing: border-box;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      line-height: 1.65;
+      color: #e8e8ec;
+      background: #111318;
+      border: 1px solid #292d36;
+      border-radius: 18px;
+    ">
+    
+      <!-- Header -->
+      <header style="text-align:center; padding:20px 0 35px;">
+        <img
+          src="https://raw.githubusercontent.com/WebDesignerCameron/magimals-toxic/main/readme_logo.jpg"
+          alt="Magimals Toxic"
+          style="max-width:100%; width:520px; border-radius:12px;"
+        >
+    
+        <h1 style="font-size:2.5rem; margin:25px 0 8px; color:#fff;">
+          Magimals Toxic
+        </h1>
+    
+        <p style="font-size:1.1rem; color:#aeb4c0;">
+          A wild RPG adventure focused on tactics, exploration, strategy,
+          and collecting unique creatures.
+        </p>
+      </header>
+    
+      <!-- Badges -->
+      <section>
+        <h2>🏅 Badges</h2>
+    
+        <p>
+          Add the Magimals Toxic badge to your project with:
+        </p>
+    
+        <pre style="
+          overflow:auto;
+          padding:16px;
+          background:#0b0d11;
+          border:1px solid #292d36;
+          border-radius:10px;
+        "><code>&lt;img src="https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/magimals-toxic/assets/Images/svg/badge.svg"
+         alt="Magimals Toxic"&gt;</code></pre>
+      </section>
+    
+      <!-- Media -->
+      <section>
+        <h2>👀 Media</h2>
+    
+        <h3>🎵 Songs</h3>
+        <p>
+          The project provides downloadable soundtrack files in several
+          audio formats, together with video versions.
+        </p>
+    
+        <h3>🎨 Logo</h3>
+        <img
+          src="https://raw.githubusercontent.com/WebDesignerCameron/magimals-toxic/main/readme_logo.jpg"
+          alt="Magimals Toxic logo"
+          style="max-width:100%; width:420px; border-radius:12px;"
+        >
+      </section>
+    
+      <!-- Summary -->
+      <section>
+        <h2>🔃 Summary</h2>
+    
+        <p>
+          Magimals Toxic is the official website and game project created
+          by WebDesignerCameron together with its contributors.
+        </p>
+    
+        <p>
+          The repository contains the main project documentation as well
+          as links to additional documentation and resources.
+        </p>
+      </section>
+    
+      <!-- Links -->
+      <section>
+        <h2>🔗 Links</h2>
+    
+        <div style="display:flex; flex-wrap:wrap; gap:10px;">
+          <a href="https://webdesignercameron.github.io/"
+             target="_blank"
+             rel="noopener"
+             style="color:#8ab4ff;">Main Website</a>
+    
+          <a href="https://github.com/WebDesignerCameron/magimals-toxic"
+             target="_blank"
+             rel="noopener"
+             style="color:#8ab4ff;">Source Repository</a>
+    
+          <a href="https://github.com/WebDesignerCameron/magimals-toxic/blob/main/CONTRIBUTING.md"
+             target="_blank"
+             rel="noopener"
+             style="color:#8ab4ff;">Contributing</a>
+    
+          <a href="https://github.com/WebDesignerCameron/magimals-toxic/blob/main/LICENSE.md"
+             target="_blank"
+             rel="noopener"
+             style="color:#8ab4ff;">License</a>
+    
+          <a href="https://github.com/WebDesignerCameron/magimals-toxic/blob/main/PRIVACY.md"
+             target="_blank"
+             rel="noopener"
+             style="color:#8ab4ff;">Privacy Policy</a>
+        </div>
+      </section>
+    
+      <!-- Game introduction -->
+      <section>
+        <h2>🎮 Game Introduction</h2>
+    
+        <p>
+          Magimals Toxic is an RPG combining tactics, strategy,
+          exploration and monster collection. Players progress through
+          a carefully designed world while travelling toward the
+          Oscilla Mountains and uncovering the game's story.
+        </p>
+      </section>
+    
+      <!-- Quick start -->
+      <section>
+        <h2>🚀 Quick Start &amp; Local Run</h2>
+    
+        <p>
+          The game is designed as a client-side web application, so it
+          can be run locally without a large development environment.
+        </p>
+    
+        <h3>Run locally</h3>
+    
+        <ol>
+          <li>Clone the repository.</li>
+          <li>Enter the project directory.</li>
+          <li>Open <code>index.html</code> in a modern browser.</li>
+          <li>
+            Alternatively, serve the directory with a local development
+            server.
+          </li>
+        </ol>
+    
+        <pre style="
+          overflow:auto;
+          padding:16px;
+          background:#0b0d11;
+          border:1px solid #292d36;
+          border-radius:10px;
+        "><code>git clone https://github.com/WebDesignerCameron/magimals-toxic
+    cd magimals-toxic
+    npx serve .</code></pre>
+      </section>
+    
+      <!-- Architecture -->
+      <section>
+        <h2>🏗️ Game Architecture</h2>
+    
+        <div style="
+          display:grid;
+          grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+          gap:16px;
+        ">
+          <article style="padding:18px;background:#191c23;border-radius:12px;">
+            <h3>HTML5 Canvas</h3>
+            <p>
+              The game uses native browser technologies and Canvas
+              rendering for its game world.
+            </p>
+          </article>
+    
+          <article style="padding:18px;background:#191c23;border-radius:12px;">
+            <h3>CSS Grid</h3>
+            <p>
+              Responsive layouts are built with modern CSS layout
+              capabilities.
+            </p>
+          </article>
+    
+          <article style="padding:18px;background:#191c23;border-radius:12px;">
+            <h3>Vanilla JavaScript</h3>
+            <p>
+              The game avoids large external frameworks and relies on
+              native ES6+ JavaScript.
+            </p>
+          </article>
+        </div>
+    
+        <p>
+          The project intentionally has no heavy external dependencies,
+          helping it load quickly in the browser.
+        </p>
+      </section>
+    
+      <!-- Stats -->
+      <section>
+        <h2>📈 GitHub Stats</h2>
+    
+        <table style="
+          width:100%;
+          border-collapse:collapse;
+          background:#191c23;
+          border-radius:10px;
+          overflow:hidden;
+        ">
+          <tbody>
+            <tr><td style="padding:10px;border-bottom:1px solid #30343d;">Type</td><td style="padding:10px;border-bottom:1px solid #30343d;">Repository</td></tr>
+            <tr><td style="padding:10px;border-bottom:1px solid #30343d;">Game Version</td><td style="padding:10px;border-bottom:1px solid #30343d;">Prerelease</td></tr>
+            <tr><td style="padding:10px;border-bottom:1px solid #30343d;">Branches</td><td style="padding:10px;border-bottom:1px solid #30343d;">1</td></tr>
+            <tr><td style="padding:10px;border-bottom:1px solid #30343d;">Pull Requests</td><td style="padding:10px;border-bottom:1px solid #30343d;">9</td></tr>
+            <tr><td style="padding:10px;">Merged PRs</td><td style="padding:10px;">8</td></tr>
+          </tbody>
+        </table>
+    
+        <p style="color:#8d939f;font-size:.9rem;">
+          Repository statistics may change as development continues.
+        </p>
+      </section>
+    
+      <!-- Development -->
+      <section>
+        <h2>⚒️ Working On</h2>
+    
+        <ul>
+          <li>Game grid setup</li>
+          <li>Game design</li>
+          <li>Graphics</li>
+          <li>Alpha 1.0</li>
+        </ul>
+      </section>
+    
+      <!-- Features -->
+      <section>
+        <h2>💯 Features</h2>
+    
+        <div style="
+          padding:16px;
+          margin-bottom:20px;
+          background:#302817;
+          border-left:4px solid #e6a817;
+          border-radius:8px;
+        ">
+          🚦 <strong>Development notice:</strong>
+          Magimals Toxic is still under development, so individual
+          features and mechanics may change.
+        </div>
+    
+        <ul>
+          <li>A large, detailed game map</li>
+          <li>A broad collection of creatures</li>
+          <li>A story-driven adventure</li>
+          <li>Toxic-type mechanics and poison effects</li>
+          <li>Turn-based battles</li>
+          <li>Unique Magimal abilities</li>
+          <li>Exploration-focused environments</li>
+          <li>Story-driven progression</li>
+        </ul>
+    
+        <h3>Maps</h3>
+        <p>
+          The world consists of four islands containing routes, paths,
+          shores and cities. Their details can evolve during development.
+        </p>
+    
+        <h3>Creatures</h3>
+        <p>
+          More than 100 Magimals are planned, each with its own abilities,
+          characteristics and skills.
+        </p>
+    
+        <h3>Adventure</h3>
+        <p>
+          The progression system is designed around exploration,
+          challenges and rewarding advancement through the world.
+        </p>
+      </section>
+    
+      <!-- Backstory -->
+      <section>
+        <h2>🦖 Backstory</h2>
+    
+        <p>
+          Long ago, ancient Magimals inhabited the Earth and sought
+          powerful forces they could exploit. Their history eventually
+          became intertwined with humanity and the Magimals encountered
+          in the modern world.
+        </p>
+      </section>
+    
+      <!-- World -->
+      <section>
+        <h2>🌎 World</h2>
+    
+        <p>
+          Players travel across four distinct islands on their journey
+          toward the final confrontation.
+        </p>
+    
+        <h3>💎 Gems</h3>
+        <p>
+          Three powerful gems must be collected from different islands.
+        </p>
+    
+        <div style="
+          display:grid;
+          grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+          gap:12px;
+        ">
+          <div style="padding:16px;background:#191c23;border-radius:10px;">
+            <strong>Starter Island</strong>
+            <p>Home of Hometon, the player's starting village.</p>
+          </div>
+    
+          <div style="padding:16px;background:#191c23;border-radius:10px;">
+            <strong>Granite Island</strong>
+            <p>A grassy plateau where the Grass Gem can be obtained.</p>
+          </div>
+    
+          <div style="padding:16px;background:#191c23;border-radius:10px;">
+            <strong>Montacia Island</strong>
+            <p>A mountainous region featuring the Oscilla Mountains.</p>
+          </div>
+    
+          <div style="padding:16px;background:#191c23;border-radius:10px;">
+            <strong>Final Island</strong>
+            <p>A dangerous volcanic location hiding the game's final threat.</p>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Gameplay mechanics -->
+      <section>
+        <h2>🧪 Deep-Dive Gameplay Mechanics</h2>
+    
+        <h3>Grid-Based Navigation</h3>
+    
+        <ul>
+          <li>
+            <strong>Safe pathways:</strong>
+            allow normal movement without encounter checks.
+          </li>
+          <li>
+            <strong>Tall grass:</strong>
+            can trigger probability-based wild encounters.
+          </li>
+          <li>
+            <strong>Obstacles:</strong>
+            control progression through required items and objectives.
+          </li>
+        </ul>
+    
+        <h3>Turn-Based Combat</h3>
+    
+        <ol>
+          <li>Choose an action such as attacking, using a move, using an item, or escaping.</li>
+          <li>The game calculates the resulting action and damage.</li>
+          <li>Status effects are processed at the end of the turn.</li>
+        </ol>
+      </section>
+    
+      <!-- Technical -->
+      <section>
+        <h2>🛠️ Technical Architecture</h2>
+    
+        <p>
+          Magimals Toxic is designed around lightweight web standards
+          rather than a large game framework.
+        </p>
+    
+        <h3>The Three-Pillar Stack</h3>
+    
+        <div style="
+          display:grid;
+          grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+          gap:16px;
+        ">
+          <div style="padding:18px;background:#191c23;border-radius:12px;">
+            <h4>HTML5</h4>
+            <p>Semantic markup and Canvas-based rendering.</p>
+          </div>
+    
+          <div style="padding:18px;background:#191c23;border-radius:12px;">
+            <h4>CSS3</h4>
+            <p>Grid and Flexbox provide responsive interfaces.</p>
+          </div>
+    
+          <div style="padding:18px;background:#191c23;border-radius:12px;">
+            <h4>ES6+ JavaScript</h4>
+            <p>Modular game logic, input handling, combat and audio systems.</p>
+          </div>
+        </div>
+    
+        <h3>State Management</h3>
+        <p>
+          Browser <code>localStorage</code> is used to preserve game
+          progress, including party data, player position and completed
+          objectives.
+        </p>
+      </section>
+    
+      <!-- FAQ -->
+      <section>
+        <h2>❓ Frequently Asked Questions</h2>
+    
+        <details>
+          <summary><strong>Can I run the game offline?</strong></summary>
+          <p>
+            Yes. The game is client-side. A local copy of the project and
+            its required source files can be used without an active
+            internet connection.
+          </p>
+        </details>
+    
+        <details>
+          <summary><strong>How can I reset my saved game?</strong></summary>
+          <p>
+            Clear the relevant browser localStorage data through the
+            browser's Developer Tools, or use the game's New Game option
+            when available.
+          </p>
+        </details>
+    
+        <details>
+          <summary><strong>How many Magimals can I catch?</strong></summary>
+          <p>
+            The underlying collection supports a dynamic number of
+            creatures, while the active battle team is limited to six.
+          </p>
+        </details>
+    
+        <details>
+          <summary><strong>Why might an old browser have problems?</strong></summary>
+          <p>
+            The game uses modern JavaScript features, so an up-to-date
+            browser is recommended.
+          </p>
+        </details>
+      </section>
+    
+      <!-- Battle math -->
+      <section>
+        <h2>🧮 Advanced Battle Math</h2>
+    
+        <h3>Stats</h3>
+    
+        <ul>
+          <li>Attack</li>
+          <li>Defense</li>
+          <li>Speed</li>
+          <li>Special Attack</li>
+          <li>Special Defense</li>
+          <li>Confidence</li>
+        </ul>
+    
+        <h3>Confidence</h3>
+    
+        <pre style="
+          padding:16px;
+          overflow:auto;
+          background:#0b0d11;
+          border-radius:10px;
+        "><code>Confidence = (Level / Opponent Level) × 1.1</code></pre>
+    
+        <h3>Core Damage</h3>
+    
+        <pre style="
+          padding:16px;
+          overflow:auto;
+          background:#0b0d11;
+          border-radius:10px;
+        "><code>Damage = (Power × (Attack / Opponent Defense)) × Modifier</code></pre>
+    
+        <h3>Modifier</h3>
+    
+        <p>
+          Damage modifiers can account for same-type bonuses, elemental
+          effectiveness and critical hits.
+        </p>
+      </section>
+    
+      <!-- Items -->
+      <section>
+        <h2>🎒 Item &amp; Consumables Directory</h2>
+    
+        <h3>🧪 Bio-Toxins &amp; Curatives</h3>
+        <ul>
+          <li><strong>Antidote Serum</strong> — removes poison effects.</li>
+          <li><strong>Nano-Potion</strong> — restores a small amount of HP.</li>
+          <li><strong>Mega-Regen Drop</strong> — provides stronger healing.</li>
+        </ul>
+    
+        <h3>🎯 Capture</h3>
+        <ul>
+          <li><strong>Capsule</strong> — standard capture device.</li>
+          <li><strong>Hyper Capsule</strong> — improved capture rate.</li>
+          <li><strong>Omega Capsule</strong> — guaranteed capture.</li>
+        </ul>
+    
+        <h3>❤️ Healing</h3>
+        <ul>
+          <li>Light Heal</li>
+          <li>Strong Heal</li>
+          <li>Paramedicine Supreme</li>
+          <li>Reliever</li>
+          <li>Omega Heal</li>
+        </ul>
+    
+        <h3>⬆️ Level Up</h3>
+        <ul>
+          <li>Level Leaf</li>
+          <li>Level Token</li>
+          <li>Level Supreme</li>
+        </ul>
+      </section>
+    
+      <!-- Speedrunning -->
+      <section>
+        <h2>⏱️ Speedrunning &amp; Optimization</h2>
+    
+        <p>
+          The grid-based world and deterministic systems provide
+          opportunities for optimized speedrunning routes.
+        </p>
+    
+        <ol>
+          <li>
+            Choose a fast starter to improve early encounter efficiency.
+          </li>
+          <li>
+            Use efficient movement routes to reduce unnecessary encounters.
+          </li>
+        </ol>
+      </section>
+    
+      <!-- Keyboard -->
+      <section>
+        <h2>⌨️ Complete Keyboard Interface</h2>
+    
+        <table style="
+          width:100%;
+          border-collapse:collapse;
+          font-size:.95rem;
+        ">
+          <thead>
+            <tr style="background:#242832;">
+              <th style="padding:10px;text-align:left;">Action</th>
+              <th style="padding:10px;text-align:left;">Primary</th>
+              <th style="padding:10px;text-align:left;">Secondary</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:10px;border-bottom:1px solid #30343d;">Move Up</td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>W</kbd></td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>↑</kbd></td>
+            </tr>
+            <tr>
+              <td style="padding:10px;border-bottom:1px solid #30343d;">Move Down</td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>S</kbd></td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>↓</kbd></td>
+            </tr>
+            <tr>
+              <td style="padding:10px;border-bottom:1px solid #30343d;">Move Left</td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>A</kbd></td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>←</kbd></td>
+            </tr>
+            <tr>
+              <td style="padding:10px;border-bottom:1px solid #30343d;">Move Right</td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>D</kbd></td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>→</kbd></td>
+            </tr>
+            <tr>
+              <td style="padding:10px;border-bottom:1px solid #30343d;">Select</td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>Space</kbd></td>
+              <td style="padding:10px;border-bottom:1px solid #30343d;"><kbd>Enter</kbd></td>
+            </tr>
+            <tr>
+              <td style="padding:10px;">Inventory</td>
+              <td style="padding:10px;"><kbd>I</kbd></td>
+              <td style="padding:10px;"><kbd>E</kbd></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    
+      <!-- Accessibility -->
+      <section>
+        <h2>♿ Accessibility</h2>
+    
+        <p>
+          Single-tap controls are provided to make movement and interaction
+          easier for players who have difficulty with conventional controls.
+        </p>
+      </section>
+    
+      <!-- Browser support -->
+      <section>
+        <h2>🌐 Cross-Browser Compatibility</h2>
+    
+        <table style="width:100%;border-collapse:collapse;">
+          <thead>
+            <tr style="background:#242832;">
+              <th style="padding:10px;text-align:left;">Browser</th>
+              <th style="padding:10px;text-align:left;">Minimum</th>
+              <th style="padding:10px;text-align:left;">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:10px;">Google Chrome</td>
+              <td style="padding:10px;">92+</td>
+              <td style="padding:10px;">Verified</td>
+            </tr>
+            <tr>
+              <td style="padding:10px;">Mozilla Firefox</td>
+              <td style="padding:10px;">90+</td>
+              <td style="padding:10px;">Verified</td>
+            </tr>
+            <tr>
+              <td style="padding:10px;">Apple Safari</td>
+              <td style="padding:10px;">15+</td>
+              <td style="padding:10px;">Verified</td>
+            </tr>
+            <tr>
+              <td style="padding:10px;">Microsoft Edge</td>
+              <td style="padding:10px;">92+</td>
+              <td style="padding:10px;">Verified</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    
+      <!-- Storage -->
+      <section>
+        <h2>📦 Magimals Storage</h2>
+    
+        <p>
+          Magimals are represented using structured data containing
+          identifiers, names, types, statistics and move pools.
+        </p>
+    
+        <pre style="
+          padding:16px;
+          overflow:auto;
+          background:#0b0d11;
+          border-radius:10px;
+        "><code>{
+      "magimalId": "MAGI_num",
+      "name": "Whatever",
+      "primaryType": "Type1",
+      "secondaryType": "Type2",
+      "stats": {
+        "hp": 60,
+        "attack": 60,
+        "defense": 60,
+        "speed": 60,
+        "spatk": 60,
+        "spdef": 60
+      },
+      "movePool": []
+    }</code></pre>
+      </section>
+    
+      <!-- Engine -->
+      <section>
+        <h2>🧠 Memory Management</h2>
+    
+        <p>
+          The engine is designed for long browser sessions and includes
+          lifecycle management intended to prevent unnecessary resource
+          retention.
+        </p>
+    
+        <ul>
+          <li>Canvas resources are cleared during major state transitions.</li>
+          <li>Event listeners are removed when no longer required.</li>
+          <li>Game systems initialize in a controlled sequence.</li>
+        </ul>
+    
+        <h3>Engine Initialization</h3>
+    
+        <ol>
+          <li>DOM content loads.</li>
+          <li>Saved game data is checked.</li>
+          <li>The Canvas viewport is initialized.</li>
+          <li>Sprites and textures are loaded.</li>
+          <li>Input handlers are registered.</li>
+          <li>The main animation loop starts.</li>
+        </ol>
+      </section>
+    
+      <!-- Credits -->
+      <section>
+        <h2>😊 Credits</h2>
+    
+        <p>
+          Thanks to all contributors who have helped develop Magimals Toxic,
+          and to everyone who has taken the time to explore the project.
+        </p>
+      </section>
+    
+      <!-- Author -->
+      <section>
+        <h2>👨‍💻 About WebDesignerCameron</h2>
+    
+        <p>
+          WebDesignerCameron (Cameron) is an independent developer and
+          businessman based in Manchester, UK, with a focus on web
+          development, games and technical projects.
+        </p>
+    
+        <blockquote style="
+          margin:20px 0;
+          padding:15px 20px;
+          border-left:4px solid #7c5cff;
+          background:#191c23;
+          border-radius:0 8px 8px 0;
+        ">
+          “I am an independent businessman with big dreams and big capabilities.”
+        </blockquote>
+    
+        <h3>Core Competencies</h3>
+    
+        <ul>
+          <li>HTML5, CSS3 and Vanilla JavaScript</li>
+          <li>C++, Python and C</li>
+          <li>YAML, CFF and introductory Java</li>
+          <li>SFML and SDL</li>
+          <li>Linux and Git</li>
+          <li>JSON and Markdown</li>
+        </ul>
+        <h3>Key Projects</h3>
+    
+        <ul>
+          <li>
+            <strong>Magimals Toxic</strong> —
+            RPG monster-catching game and website.
+          </li>
+          <li>
+            <strong>Source Files</strong> —
+            reusable source code and developer resources.
+          </li>
+          <li>
+            <strong>Learning Log</strong> —
+            documentation of Cameron's development journey.
+          </li>
+        </ul>
+      </section>
+    
+      <!-- Footer -->
+      <footer style="
+        margin-top:35px;
+        padding-top:22px;
+        border-top:1px solid #292d36;
+        text-align:center;
+        color:#858b97;
+        font-size:.9rem;
+      ">
+        <p>
+          Magimals Toxic · WebDesignerCameron
+        </p>
+    
+        <a
+          href="https://github.com/WebDesignerCameron/magimals-toxic"
+          target="_blank"
+          rel="noopener"
+          style="
+            display:inline-block;
+            padding:9px 16px;
+            color:#fff;
+            background:#6d4aff;
+            border-radius:8px;
+            text-decoration:none;
+          "
+        >
+          View on GitHub
+        </a>
+      </footer>
+    
+    </div>
+  </body>
+</html>

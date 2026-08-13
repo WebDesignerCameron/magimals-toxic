@@ -1,12 +1,12 @@
 # Magimals Toxic
 ## 🏅 Badges
 ![WebDesignerCameron](https://img.shields.io/badge/Created%5FBy-WebDesignerCameron-4444FF?style=for-the-badge)
-![Magimals Toxic](https://img.shields.io/badge/Game-Magimals%5FToxic-0000ED?style=for-the-badge&logo=retroarch&logoColor=white)
+![Magimals Toxic](https://img.shields.io/badge/Game-Magimals%5FToxic-00ED00?style=for-the-badge&logo=retroarch&logoColor=white)
 ## Getting the Badge
 To access the Magimals Toxic
 badge, add this to your code:
 ```markdown
-![Magimals Toxic](https://img.shields.io/badge/Game-Magimals%5FToxic-0000ED?style=for-the-badge&logo=retroarch&logoColor=white)
+![Magimals Toxic](https://img.shields.io/badge/Game-Magimals%5FToxic-00ED00?style=for-the-badge&logo=retroarch&logoColor=white)
 ```
 ## 👀 Media
 ### Songs

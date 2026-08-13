@@ -1,13 +1,12 @@
 # Magimals Toxic
 ## 🏅 Badges
-![WebDesignerCameron](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/shared/assets/svg/made_by.svg)
-![Made by WebDesignerCameron](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/shared/assets/svg/logo.svg)
-![Magimals Toxic](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/magimals-toxic/assets/Images/svg/badge.svg)
-### Getting the badge
+![WebDesignerCameron](https://img.shields.io/badge/Created%5FBy-WebDesignerCameron-4444FF?style=for-the-badge)
+![Magimals Toxic](https://img.shields.io/badge/Game-Magimals%5FToxic-0000ED?style=for-the-badge&logo=retroarch&logoColor=white)
+## Getting the Badge
 To access the Magimals Toxic
 badge, add this to your code:
 ```markdown
-![Magimals Toxic](https://cdn.jsdelivr.net/gh/WebDesignerCameron/src@main/projects/magimals-toxic/assets/Images/svg/badge.svg)
+![Magimals Toxic](https://img.shields.io/badge/Game-Magimals%5FToxic-0000ED?style=for-the-badge&logo=retroarch&logoColor=white)
 ```
 ## 👀 Media
 ### Songs

@@ -57,6 +57,10 @@ main {
     margin: 0 auto;
     padding: 2rem 1.5rem;
 }
+video {
+    width: 80vw;
+    height: auto;
+}
 .logo-s {
     display: flex;
     align-items: center;

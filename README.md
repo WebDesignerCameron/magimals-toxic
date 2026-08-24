@@ -117,11 +117,11 @@ Latest Release:  N/A
 
 Game Version:    Prerelease
 
-PRs:             9
+PRs:             11
 
-Merged PRs:      8
+Merged PRs:      9
 
-Closed PRs:      9
+Closed PRs:      11
 
 Branches:        1
 

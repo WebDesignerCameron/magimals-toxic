@@ -68,7 +68,8 @@ on the word 'Markdown' underneath the languages bar or you can head to
 * [Programming](https://webdesignercameron.github.io/magimals-toxic/program.html)
 * [Privacy Policy](PRIVACY.md)
 * [Record of changes](CHANGELOG.md)
-* [Source code](src/sourcecode.md) 
+* [Source code](src/sourcecode.md)
+* [Assets](https://github.com/WebDesignerCameron/src/blob/main/projects/magimals-toxic/assets/) 
 ## 🎮 Game Introduction
 Magimals Toxic is a wild game of tactics 
 and strategy as you advance through the 

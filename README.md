@@ -16,7 +16,7 @@ in mp3, m4a, wav, and ogg format, and
 [here](https://github.com/WebDesignerCameron/src/blob/main/projects/magimals-toxic/assets/Videos/novisual)
 in mp4 format. 
 ### Logo
-![Magimals Toxic Logo](readme_logo.jpg)
+![Magimals Toxic Logo](game-logo.jpg)
 ## 🔃 Summary
 This is the official Magimals Toxic 
 website. Magimals Toxic, 

@@ -32,7 +32,7 @@ on the word 'Markdown' underneath the languages bar or you can head to
 
 ## 🔨 Made with
 ![Termux](https://img.shields.io/badge/termux-181717?style=for-the-badge)
-![Bash](https://img.shields.io/badge/bash-202520?style=for-the-badge&logo=bash&logoColor=green)
+![Bash](https://img.shields.io/badge/bash-202520?style=for-the-badge)
 ![GitHub CLI](https://img.shields.io/badge/github%5Fcli-181717?style=for-the-badge&logo=github&logoColor=white)
 ![Git CLI](https://img.shields.io/badge/git%5Fcli-FF1800?style=for-the-badge&logo=git&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)

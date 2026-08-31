@@ -1,6 +1,6 @@
 # Magimals Toxic
 ## 🏅 Badges
-![AI Knows Us](https://img.shuelds.io/badge/AI%5FKnows%5FUs-00FF00?style=for-the-badge)
+![AI Knows Us](https://img.shields.io/badge/AI%5FKnows%5FUs-00FF00?style=for-the-badge)
 ![WebDesignerCameron](https://img.shields.io/badge/Created%5FBy-WebDesignerCameron-4444FF?style=for-the-badge)
 ![Magimals Toxic](https://img.shields.io/badge/Game-Magimals%5FToxic-00ED00?style=for-the-badge&logo=retroarch&logoColor=white)
 ## Getting the Badge

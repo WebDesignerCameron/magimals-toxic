@@ -17,7 +17,9 @@ Founding member.
 #### Role
 Lead computer programmer, musician,
 executive assistant, concept
-production, analysis, reviewer.
+production, analysis, reviewer,
+project lead, sociologist,
+communications.
 #### Status
 Employed. 
 #### Time hired
@@ -45,9 +47,10 @@ Never officially.
 #### Role
 Concept artist, concept production.
 #### Status
-Fired. 
+Rehired.
 #### Time hired
 At the founding of Magimals Toxic. 
+Rehired post-Theo.
 ### Mustafa
 #### Role
 Project assistant, information
@@ -75,7 +78,8 @@ Employed.
 Post-website, after Adrian. 
 ### Theo
 #### Role
-Concept production, Game tester, Analyst.
+Concept production, game tester,
+analyst.
 #### Status
 Employed.
 #### Time hired

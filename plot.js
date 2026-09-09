@@ -22,4 +22,4 @@ const config = {
     responsive: true,
     displayModeBar: true
 };
-Plotly.newPlot(plotDiv, data, layout, config);
+Plotly.newPlot(plotSection, data, layout, config);

@@ -84,3 +84,18 @@ analyst.
 Employed.
 #### Time hired
 After game started being coded, post-Adrian.
+### Colin
+#### Role
+Concept production.
+#### Status
+Employed.
+#### Time hired
+Post-Theo.
+### Gideon & Ezra
+#### Role
+Concept production, musical
+assistant, musician.
+#### Status
+Employed.
+#### Time hired
+Same time as Colin.
